@@ -1,0 +1,44 @@
+{
+    "name": "Foxster",
+    "identifier": "me.foxster.AltSource",
+    "apps": [
+        {
+            "name": "YouTube++",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "developerName": "Foxster",
+            "subtitle": "Premium features for days!",
+            "version": "17.24.4",
+            "versionDate": "2022-06-20T12:00:00-00:00",
+            "versionDescription": "\"Bug fixes, stability improvements, repairs to space-time continuum.\"\n\nTweaks\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.4 \n• me.alfhaily.cercube v5.3.9 \n• weeb.lillie.youtubedislikesreturn v1.6.5 \n",
+            "downloadURL": "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/YouTube++.ipa?raw=true",
+            "localizedDescription": "Tweaked version of YouTube with awesome additional features, like Cercube to download videos and block ads, YouPiP to enable Picture-in-Picture and more. Install and explore now!",
+            "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/YouTube++/icon.png",
+            "tintColor": "eb3223",
+            "size": 97606183,
+            "screenshotURLs": [
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/screenshots/IMG_1454.jpg?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/screenshots/IMG_1459.jpg?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/screenshots/IMG_1460.jpg?raw=true"
+            ]
+        },
+        {
+            "name": "Sneaky Sasquatch",
+            "bundleIdentifier": "com.rac7.SneakySasquatch",
+            "developerName": "RAC7 Games",
+            "subtitle": "Apple Arcade Game of the Year 2020!",
+            "version": "1.3.3",
+            "versionDate": "2020-05-20T12:00:00-00:00",
+            "versionDescription": "We added lots of new things including: \n- The Town Hall is now open! \n- A permits office, so you can get a taxi license and drive people around \n- A records room that keeps track of high scores and leaderboards \n- A daily challenge board \n- An outfit customizer so you can create your own disguises \n- A new ski school to teach you how to do spins and flips \n- New skiing equipment and events \n- Running races to unlock shoes so you can run faster \n- New construction projects \n\nThanks for playing! More updates will be coming soon!",
+            "downloadURL": "https://drive.google.com/uc?export=download&id=1xP2Je5Va066RyNSwJnyWcb4y4L11T_7R&confirm=t",
+            "localizedDescription": "Live the life of a Sasquatch and do regular everyday Sasquatch stuff like:\n- Sneak around campsites\n- Disguise yourself in human clothing\n- Eat food from unguarded coolers and picnic baskets\n- And more!",
+            "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/SneakySasquatch/icon.png",
+            "tintColor": "396832",
+            "size": 193121501,
+            "screenshotURLs": [
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/SneakySasquatch/screenshots/626x0w.png?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/SneakySasquatch/screenshots/626x0w-2.png?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/SneakySasquatch/screenshots/626x0w-3.png?raw=true"
+            ]
+        }
+    ]
+}
