@@ -39,7 +39,8 @@ document.querySelector("#add").addEventListener("click", () => {
 function appContainer(name, shortDesc, longDesc, version = "N/A", versionDate = "N/A", iconURL, 
     newApp = false, buttonLink = null, buttonText = "More") {
     
-    const rand = Math.floor(Math.random() * 10000);
+    const rand = Math.floor(Math.random() * 10000),
+        randName = name.toLowerCase().replaceAll(" ", "").split("+")[0] + rand;
     newApp = (newApp ? "New" : "");
     
     return `
@@ -54,10 +55,10 @@ function appContainer(name, shortDesc, longDesc, version = "N/A", versionDate = 
                     <p class="fs-7 app-desc-short">
                     ${shortDesc}
                     </p>
-                    <p class="fs-7 text-adaptive2 collapse app-desc-long" id="${name.toLowerCase().replaceAll(" ", "")}${rand}Desc">
+                    <p class="fs-7 text-adaptive2 collapse app-desc-long" id="${randName}Desc">
                     ${(longDesc ? longDesc.replaceAll("\n", "<br>") : "")}
                     <br>
-                    <span class="app-version fw-normal text-end" id="${name.toLowerCase().replaceAll(" ", "")}${rand}Version" style="display: block; text-align: start!important; margin-top: 10px">v${version} (${versionDate})
+                    <span class="app-version fw-normal text-end" id="${randName}Version" style="display: block; text-align: start!important; margin-top: 10px">v${version} (${versionDate})
                     </span>
                     </p>
                 </div>
@@ -65,7 +66,7 @@ function appContainer(name, shortDesc, longDesc, version = "N/A", versionDate = 
                     (buttonLink ?
                         `onclick="location.href='${buttonLink}';"`
                         :
-                        `data-bs-toggle="collapse" data-bs-target="#${name.toLowerCase().replaceAll(" ", "")}${rand}Desc" aria-expanded="false" aria-controls="${name.toLowerCase().replaceAll(" ", "")}${rand}Desc"`
+                        `data-bs-toggle="collapse" data-bs-target="#${randName}Desc" aria-expanded="false" aria-controls="${randName}Desc"`
                     ) + `>${buttonText}</button>
             </div>
         </div>
