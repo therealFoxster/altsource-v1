@@ -4,7 +4,7 @@
     "apps": [
         {
             "name": "Spotify++",
-            "bundleIdentifier": "com.foxster.spotify.pp",
+            "bundleIdentifier": "com.spotify.client",
             "developerName": "Foxster",
             "subtitle": "Ad-free music. For free.",
             "version": "8.6.42",
@@ -14,7 +14,7 @@
             "localizedDescription": "This tweaked version of Spotify is completely ad-free and contains various customization features (thanks to @atebitsy/aesthyrica).",
             "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/Spotify/icon.png",
             "tintColor": "1db954",
-            "size": 50496182,
+            "size": 50496174,
             "screenshotURLs": []
         },
         {
