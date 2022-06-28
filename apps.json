@@ -25,15 +25,16 @@
             "version": "17.24.4",
             "versionDate": "2022-06-20T12:00:00-00:00",
             "versionDescription": "\"Bug fixes, stability improvements, repairs to space-time continuum.\"\n\nTweaks\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.4 \n• com.ps.ytsystemappearance v1.0.0 \n• me.alfhaily.cercube v5.3.9 \n• weeb.lillie.youtubedislikesreturn v1.6.5",
-            "downloadURL": "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube/YouTube++.ipa?raw=true",
+            "downloadURL": "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/YouTube++.ipa?raw=true",
             "localizedDescription": "Tweaked version of YouTube with awesome additional features, utilizing tweaks like Cercube to download videos and block ads, YouPiP to enable Picture-in-Picture and more. Install and explore now!",
-            "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/YouTube/icon.png",
+            "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/YouTube++/icon.png",
             "tintColor": "ff0000",
             "size": 94607363,
             "screenshotURLs": [
-                "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube/screenshots/IMG_1454.jpg?raw=true",
-                "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube/screenshots/IMG_1459.jpg?raw=true",
-                "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube/screenshots/IMG_1460.jpg?raw=true"
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/screenshots/IMG_2829.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/screenshots/IMG_2831.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/screenshots/IMG_2832.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/screenshots/IMG_2833.PNG?raw=true"
             ]
         },
         {
