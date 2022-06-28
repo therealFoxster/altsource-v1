@@ -4,7 +4,7 @@
     "apps": [
         {
             "name": "Spotify++",
-            "bundleIdentifier": "com.spotify.client",
+            "bundleIdentifier": "com.foxster.spotify++",
             "developerName": "Foxster",
             "subtitle": "Ad-free music. For free!",
             "version": "8.6.42",
