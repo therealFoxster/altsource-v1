@@ -19,7 +19,7 @@
         },
         {
             "name": "YouTube++",
-            "bundleIdentifier": "com.foxster.youtube.pp",
+            "bundleIdentifier": "com.google.ios.youtube.pp",
             "developerName": "Foxster",
             "subtitle": "Premium features and then some.",
             "version": "17.24.4",
