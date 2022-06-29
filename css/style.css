@@ -2,6 +2,7 @@
     --light-bg-color: white;
     --dark-bg-color: rgb(20, 20, 31);
     --gradient-bg-color: linear-gradient(rgb(6,15,33), black);
+    --main-gradient-bg: linear-gradient(170deg, #d0768c 0%,#bf46a5 10%,#7029b2 50%,#341d8c 100%);
 }
 
 /* Texts */
@@ -27,7 +28,7 @@
 }
 
 .gradient-bg {
-    background: linear-gradient(170deg, #d0768c 0%,#bf46a5 10%,#7029b2 50%,#341d8c 100%);
+    background: var(--main-gradient-bg);
 }
 
 .blur-bg {
@@ -77,7 +78,10 @@ body {
 }
 
 #add:hover {
-    color: rgb(86,46,160);
+    /* color: rgb(86,46,160); */
+    color: var(--main-gradient-bg)!important;
+    /* -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
 }
 
 /* @media (max-width: 576px) {
