@@ -19,7 +19,7 @@ All of the tweaked apps available on the source were made with [Azule](https://g
 By adding a source, you'll receive app updates directly through AltStore (as you would with any other app store) instead of having to dive around looking for and installing an .ipa file you may not know the origin of.
 
 ## How often are apps updated?
-I don't think I'll be dedicating a lot of time into this project so I'll only be updating apps when needed. Feel free to [contact me](#contact-me) if something breaks down the road!
+I don't think I'll be dedicating a lot of time into this project so apps will only be updated when needed. Feel free to [let me know](#contact-me) if something breaks down the road!
 
 ## Credits
 * AltStore and AltStore by [Riley Testut](https://github.com/rileytestut)
