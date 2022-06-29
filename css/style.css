@@ -78,10 +78,10 @@ body {
 }
 
 #add:hover {
-    /* color: rgb(86,46,160); */
-    color: var(--main-gradient-bg)!important;
-    /* -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; */
+    color: rgb(153,56,171);
+    /* color: var(--main-gradient-bg)!important; */
+    /* -webkit-text-fill-color: transparent; */
+    /* -webkit-background-clip: text; */
 }
 
 /* @media (max-width: 576px) {
