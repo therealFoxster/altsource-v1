@@ -22,7 +22,7 @@ By adding a source, you'll receive app updates directly through AltStore (as you
 I don't think I'll be able to dedicate a lot of time into this project so apps will only be updated when needed. Feel free to [let me know](#contact-me) if something breaks down the road!
 
 ## Credits
-* AltStore and AltStore by [Riley Testut](https://github.com/rileytestut)
+* AltStore and AltStore beta by [Riley Testut](https://github.com/rileytestut)
 * Azule by [Martin Pelteshki](https://github.com/Al4ise)
 
 ## Contact me
