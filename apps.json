@@ -4,18 +4,24 @@
     "apps": [
         {
             "name": "Spotify++",
-            "bundleIdentifier": "com.spotify.client",
+            "bundleIdentifier": "com.foxster.spotify.pp",
             "developerName": "Foxster",
             "subtitle": "Ad-free music. For free.",
             "version": "8.6.42",
             "versionDate": "2021-07-09T12:00:00-00:00",
-            "versionDescription": "\"We’re always making changes and improvements to Spotify. To make sure you don’t miss a thing, just keep your Updates turned on.\n\nBug fixes and improvements in this version include:\n- Fixed stability issues\"\n\nTweaks\n• com.julioverne.spotilife v1.7a \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52",
-            "downloadURL": "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify/Spotify++.ipa?raw=true",
+            "versionDescription": "\"We’re always making changes and improvements to Spotify. To make sure you don’t miss a thing, just keep your Updates turned on.\n\nBug fixes and improvements in this version include:\n- Fixed stability issues\"\n\nTweaks\n• com.julioverne.spotilife v1.7a \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52\n\nKnown issues\n• Log in with Google and Apple is broken\n• App won't deactivate with AltStore",
+            "downloadURL": "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/Spotify++.ipa?raw=true",
             "localizedDescription": "This tweaked version of Spotify is completely ad-free and contains various customization features (thanks to @atebitsy/aesthyrica).",
-            "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/Spotify/icon.png",
+            "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/Spotify++/icon.png",
             "tintColor": "1db954",
-            "size": 50496174,
-            "screenshotURLs": []
+            "size": 50496182,
+            "screenshotURLs": [
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/screenshots/IMG_2841.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/screenshots/IMG_2843.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/screenshots/IMG_2845.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/screenshots/IMG_2846.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/screenshots/IMG_2847.PNG?raw=true"
+            ]
         },
         {
             "name": "YouTube++",
@@ -26,7 +32,7 @@
             "versionDate": "2022-06-20T12:00:00-00:00",
             "versionDescription": "\"Bug fixes, stability improvements, repairs to space-time continuum.\"\n\nTweaks\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.4 \n• com.ps.ytsystemappearance v1.0.0 \n• me.alfhaily.cercube v5.3.9 \n• weeb.lillie.youtubedislikesreturn v1.6.5",
             "downloadURL": "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/YouTube++.ipa?raw=true",
-            "localizedDescription": "Tweaked version of YouTube with awesome additional features, utilizing tweaks like Cercube to download videos and block ads, YouPiP to enable Picture-in-Picture and more. Install and explore now!",
+            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!",
             "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/YouTube++/icon.png",
             "tintColor": "ff0000",
             "size": 94607363,
