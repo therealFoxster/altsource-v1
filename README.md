@@ -14,7 +14,7 @@ All of the tweaked apps available on the source were made with a decrypted .ipa 
 #### How often are these apps updated?
 I don't think I'll be able to dedicate a lot of time into this project so apps will only be updated when needed. Feel free to [let me know](#contact-me) if something breaks down the road!
 
-## Source preview
+## Source Preview
 [https://foxster-mp4.github.io/AltSource/](https://foxster-mp4.github.io/AltSource/)
 
 ## Screenshots
@@ -26,6 +26,6 @@ I don't think I'll be able to dedicate a lot of time into this project so apps w
 * [Riley Testut](https://github.com/rileytestut) - AltStore and AltStore beta
 * [Martin Pelteshki](https://github.com/Al4ise) - Azule
 
-## Contact me
+## Contact Me
 * Email: [huythefox@gmail.com](mailto:huythefox@gmail.com)
 * Twitter: [@FoxsterPrivate](https://twitter.com/FoxsterPrivate)
