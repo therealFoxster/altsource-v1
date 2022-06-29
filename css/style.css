@@ -141,13 +141,17 @@ body {
 }
 
 .app-text p.app-desc-short {
+    line-height: 15px;
     /* min-width: 250px; */
-    width: 42vw;
+    /* width: 42vw; */
     /* max-width: 155px; */
     /* color: darkgray; */
-    white-space: nowrap;
-    overflow: hidden!important;
-    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    /* overflow: hidden!important; */
+    /* text-overflow: ellipsis; */
+}
+.app-text p.app-desc-long {
+    hyphens: auto;
 }
 
 #apps {

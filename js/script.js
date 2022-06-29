@@ -16,7 +16,8 @@ $.getJSON("apps.json", function (json) {
         const dateStr = `${month} ${date}, ${versionDate.getFullYear()}`
 
         document.querySelector("#apps").insertAdjacentHTML("afterbegin", appContainer(app.name, app.subtitle, 
-            (app.localizedDescription.includes(".") ? app.localizedDescription.split(".")[0] + "..." : app.localizedDescription)
+            // (app.localizedDescription.includes(".") ? app.localizedDescription.split(".")[0] + "..." : app.localizedDescription)
+            app.localizedDescription
             // app.versionDescription.split("\n \n")[0]
             , app.version, dateStr, app.iconURL, newApp));
     });
@@ -37,7 +38,7 @@ document.querySelector("#add").addEventListener("click", () => {
 });
 
 function appContainer(name, shortDesc, longDesc, version = "N/A", versionDate = "N/A", iconURL, 
-    newApp = false, buttonLink = null, buttonText = "More") {
+    newApp = false, buttonLink = null, buttonText = "Info") {
     
     const rand = Math.floor(Math.random() * 10000),
         randName = name.toLowerCase().replaceAll(" ", "").split("+")[0] + rand;
@@ -45,29 +46,29 @@ function appContainer(name, shortDesc, longDesc, version = "N/A", versionDate = 
     
     return `
         <div class="d-flex justify-content-center m-2">
-            <div class="app d-flex align-items-center blur-bg p-3">
-                <img src="${iconURL}" alt="${name.toLowerCase()}-app-icon" class="app-icon">
-                <div class="app-text p-2 flex-grow-1">
-                    <p class="text-adaptive2 fs-6">
-                    ${name}
-                    <span class="badge new text-bg-danger text-uppercase">${newApp}</span>
-                    </p>
-                    <p class="fs-7 app-desc-short">
-                    ${shortDesc}
-                    </p>
-                    <p class="fs-7 text-adaptive2 collapse app-desc-long" id="${randName}Desc">
-                    ${(longDesc ? longDesc.replaceAll("\n", "<br>") : "")}
-                    <br>
-                    <span class="app-version fw-normal text-end" id="${randName}Version" style="display: block; text-align: start!important; margin-top: 10px">v${version} (${versionDate})
-                    </span>
-                    </p>
-                </div>
-                <button type="button" class="btn btn-primary btn-sm rounded-pill bold text-uppercase fw-semibold" ` +
+            <div class="app blur-bg d-flex flex-column">
+                <div class="app d-flex align-items-center p-3">
+                    <img src="${iconURL}" alt="${name.toLowerCase()}-app-icon" class="app-icon">
+                    <div class="app-text p-2 flex-grow-1">
+                        <p class="text-adaptive2 fs-6">
+                            ${name} <span class="badge new text-bg-danger text-uppercase">${newApp}</span>
+                        </p>
+                        <p class="fs-7 app-desc-short">${shortDesc}</p>
+
+                    </div>
+                    <button type="button" class="btn btn-primary btn-sm rounded-pill bold text-uppercase fw-semibold" ` +
                     (buttonLink ?
                         `onclick="location.href='${buttonLink}';"`
                         :
                         `data-bs-toggle="collapse" data-bs-target="#${randName}Desc" aria-expanded="false" aria-controls="${randName}Desc"`
                     ) + `>${buttonText}</button>
+                </div>
+                <div class="app-text flex-grow-1" style="margin: 0 12px; padding: 0 8px;">
+                    <p class="fs-7 text-adaptive2 app-desc-long collapse" id="${randName}Desc" style="margin-top: -8px;">
+                        ${(longDesc ? longDesc.replaceAll("\n", "<br>") : "")}
+                        <br><span class="app-version fw-normal text-end" id="${randName}Version" style="display: block; text-align: start!important; margin-top: 8px">v${version} (${versionDate})</span><br>
+                    </p>
+                </div>
             </div>
         </div>
     `;
