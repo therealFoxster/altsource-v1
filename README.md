@@ -4,7 +4,7 @@ A source for AltStore with tweaked apps (made by yours truly) and a number of ot
 
 > ### Requires [AltStore beta](https://faq.altstore.io/patreon/beta-features/).
 
-## Link to page
+## Source preview
 [https://foxster-mp4.github.io/AltSource/](https://foxster-mp4.github.io/AltSource/)
 
 ## Screenshots
