@@ -8,9 +8,9 @@ A source for AltStore with tweaked apps (made by yours truly) and a number of ot
 [https://foxster-mp4.github.io/AltSource/](https://foxster-mp4.github.io/AltSource/)
 
 ## Screenshots
-<img src="source-screenshots/IMG_1511.PNG" alt="screenshot1" width="375"/>
-<img src="source-screenshots/IMG_1512.PNG" alt="screenshot2" width="375"/>
-<img src="source-screenshots/IMG_1513.PNG" alt="screenshot3" width="375"/>
+<img src="source-screenshots/IMG_1511.PNG" alt="screenshot1" width="220"/>
+<img src="source-screenshots/IMG_1512.PNG" alt="screenshot2" width="220"/>
+<img src="source-screenshots/IMG_1513.PNG" alt="screenshot3" width="220"/>
 
 ## How were tweaks injected?
 All of the tweaked apps available on the source were made with [Azule](https://github.com/Al4ise/Azule).
