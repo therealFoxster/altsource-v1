@@ -22,9 +22,9 @@ I don't think I'll be able to dedicate a lot of time into this project so apps w
 <img src="source-screenshots/IMG_1512.PNG" alt="screenshot2" width="300"/>
 <img src="source-screenshots/IMG_1513.PNG" alt="screenshot3" width="300"/>
 
-## Special thanks to
-* AltStore and AltStore beta by [Riley Testut](https://github.com/rileytestut)
-* Azule by [Martin Pelteshki](https://github.com/Al4ise)
+## Credits
+* [Riley Testut](https://github.com/rileytestut) - AltStore and AltStore beta
+* [Martin Pelteshki](https://github.com/Al4ise) - Azule
 
 ## Contact me
 * Email: [huythefox@gmail.com](mailto:huythefox@gmail.com)
