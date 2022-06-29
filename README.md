@@ -11,8 +11,8 @@ A source for AltStore with tweaked apps (made by yours truly) and a number of ot
 <img src="source-screenshots/IMG_1512.PNG" alt="screenshot2" width="300"/>
 <img src="source-screenshots/IMG_1513.PNG" alt="screenshot3" width="300"/>
 
-## How were tweaks injected?
-All of the tweaked apps available on the source were made with [Azule](https://github.com/Al4ise/Azule).
+## How were your tweaked apps made?
+All of the tweaked apps available on the source were made with a decrypted .ipa file of the original app and tweaks pulled from a jailbroken device. The tweaks were then injected into the app using [Azule](https://github.com/Al4ise/Azule).
 
 ## Why add a source when I can just sideload the .ipa file normally?
 By adding a source, you'll receive app updates directly through AltStore (as you would with any other app store) instead of having to dive around looking for and installing an .ipa file you may not know the origin of. I also have plans to open-source these tweak-injected apps (hopefully in the near future) for maximum transparency.
