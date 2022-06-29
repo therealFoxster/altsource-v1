@@ -7,7 +7,7 @@ A source for AltStore with tweaked apps (made by yours truly) and a number of ot
 [https://foxster-mp4.github.io/AltSource/](https://foxster-mp4.github.io/AltSource/)
 
 ## Screenshots
-<img src="source-screenshots/IMG_1514.PNG" alt="screenshot1" width="300"/>
+<img src="source-screenshots/IMG_1515.PNG" alt="screenshot1" width="300"/>
 <img src="source-screenshots/IMG_1512.PNG" alt="screenshot2" width="300"/>
 <img src="source-screenshots/IMG_1513.PNG" alt="screenshot3" width="300"/>
 
