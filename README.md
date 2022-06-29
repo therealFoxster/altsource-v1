@@ -1,8 +1,7 @@
 # Foxster's AltStore Source
 ### Tweak-injected iOS apps and more.
 A source for AltStore with tweaked apps (made by yours truly) and a number of other apps not found on the iOS App Store.
-
-> ### Requires [AltStore beta](https://faq.altstore.io/patreon/beta-features/).
+#### Requires [AltStore beta](https://faq.altstore.io/patreon/beta-features/).
 
 ## Source preview
 [https://foxster-mp4.github.io/AltSource/](https://foxster-mp4.github.io/AltSource/)
