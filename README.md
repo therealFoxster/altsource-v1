@@ -2,7 +2,7 @@
 #### Tweak-injected iOS apps and more.
 A source for AltStore with tweaked apps (made by yours truly) and a number of other apps not found on the iOS App Store.
 
-## Requisite
+## Pre-requisite
 * [AltStore beta](https://faq.altstore.io/patreon/beta-features/)
 
 #### Why add a source when I can just sideload an .ipa file?
