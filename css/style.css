@@ -196,13 +196,21 @@ footer {
     .btn:hover {
         color: var(--bs-btn-color)!important;
         background-color: var(--bs-btn-bg);
+        
+    }
+    .btn-primary:hover {
         border: none;
     }
 }
 
-.btn:focus {
+.btn-primary {
+    border: none!important;
+}
+
+.btn-primary:focus {
     background-color: var(--bs-btn-bg);
     /* background-color: red; */
+    border: none;
     outline: none !important;
     box-shadow: none;
 }

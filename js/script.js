@@ -19,8 +19,11 @@ $.getJSON("apps.json", function (json) {
             // (app.localizedDescription.includes(".") ? app.localizedDescription.split(".")[0] + "..." : app.localizedDescription)
             app.localizedDescription
             // app.versionDescription.split("\n \n")[0]
-            , app.version, dateStr, app.iconURL, newApp));
+            , app.version, dateStr, app.iconURL, newApp)
+        );
     });
+
+    document.querySelector(".app-text p span").classList.add("badge", "new"); // Add "New" badge to first app by default
 
     document.querySelectorAll(".btn").forEach(btn => {
         btn.addEventListener("click", e => {
@@ -37,7 +40,7 @@ document.querySelector("#add").addEventListener("click", () => {
     location.href = "altstore://source?url=https://foxster-mp4.github.io/AltSource/apps.json";
 });
 
-function appContainer(name, shortDesc, longDesc, version = "N/A", versionDate = "N/A", iconURL, 
+function appContainer(name, shortDesc, longDesc, version = "N/A", versionDate = "N/A", iconURL="apps/blank-app-icon.jpeq", 
     newApp = false, buttonLink = null, buttonText = "Info") {
     
     const rand = Math.floor(Math.random() * 10000),
@@ -48,10 +51,10 @@ function appContainer(name, shortDesc, longDesc, version = "N/A", versionDate = 
         <div class="d-flex justify-content-center m-2">
             <div class="app blur-bg d-flex flex-column">
                 <div class="app d-flex align-items-center p-3">
-                    <img src="${iconURL}" alt="${name.toLowerCase()}-app-icon" class="app-icon">
+                    <img src="${iconURL}" alt="${name.toLowerCase()}-app-icon" class="app-icon" onerror="this.onerror=null;this.src='apps/blank-app-icon.jpeg';">
                     <div class="app-text p-2 flex-grow-1">
                         <p class="text-adaptive2 fs-6">
-                            ${name} <span class="badge new text-bg-danger text-uppercase">${newApp}</span>
+                            ${name} <span class="${(newApp ? "badge new " : "")}text-bg-danger text-uppercase">${newApp}</span>
                         </p>
                         <p class="fs-7 app-desc-short">${shortDesc}</p>
 
