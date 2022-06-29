@@ -66,7 +66,7 @@ function appContainer(name, shortDesc, longDesc, version = "N/A", versionDate = 
                 <div class="app-text flex-grow-1" style="margin: 0 12px; padding: 0 8px;">
                     <p class="fs-7 text-adaptive2 app-desc-long collapse" id="${randName}Desc" style="margin-top: -8px;">
                         ${(longDesc ? longDesc.replaceAll("\n", "<br>") : "")}
-                        <br><span class="app-version fw-normal text-end" id="${randName}Version" style="display: block; text-align: start!important; margin-top: 8px">v${version} (${versionDate})</span><br>
+                        <br><span class="app-version fw-normal text-end" id="${randName}Version" style="display: block; text-align: end!important; margin-top: 8px">v${version} (${versionDate})</span><br>
                     </p>
                 </div>
             </div>
