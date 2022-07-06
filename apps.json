@@ -3,7 +3,7 @@
     "identifier": "me.foxster.AltSource",
     "apps": [
         {
-            "name": "Old YouTube++",
+            "name": "YouTube++ (Old)",
             "bundleIdentifier": "com.google.ios.youtube.pp.old",
             "developerName": "Foxster",
             "subtitle": "Premium features and then some.",
