@@ -3,6 +3,22 @@
     "identifier": "me.foxster.AltSource",
     "apps": [
         {
+            "name": "Old YouTube++",
+            "bundleIdentifier": "com.google.ios.youtube.pp.old",
+            "developerName": "Foxster",
+            "subtitle": "Premium features and then some.",
+            "version": "16.46.5",
+            "versionDate": "2021-12-04T12:00:00-00:00",
+            "versionDescription": "\"Bug fixes, performance improvements, and more cat videos.\"\n\nTweaks\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.4 \n• com.ps.ytsystemappearance v1.0.0 \n• me.alfhaily.cercube v5.3.4 \n• weeb.lillie.youtubedislikesreturn v1.6.5",
+            "downloadURL": "https://drive.google.com/uc?export=download&id=1LUT2tgLmvm6w3OuJ2_JvgF-mMsDFw3Ux&confirm=t",
+            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!\n\nUse this version if you dislike having tweak icons overlaid on the video player. Newer YouTube versions (from v17.01.4) onwards made it very hard (likely impossible) to inject tweak icons into the video tab bar, hence why many tweaks developer resorted to overlaying icons on the video player, which some people (me included) find intriguing. This YouTube++ version uses YouTube v16.46.5 and Cercube v5.3.4 to overcome that.",
+            "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/OldYouTube++/icon.png",
+            "tintColor": "ff0000",
+            "size": 105316729,
+            "screenshotURLs": [
+            ]
+        },
+        {
             "name": "Spotify++",
             "bundleIdentifier": "com.foxster.spotify.pp",
             "developerName": "Foxster",
