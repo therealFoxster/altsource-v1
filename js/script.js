@@ -33,7 +33,7 @@ document.querySelector("#add").addEventListener("click", () => location.href = "
 
 function appContainer(name, shortDesc, longDesc, version = "N/A", versionDate = "N/A", iconURL="apps/blank-app-icon.jpeq", newApp = false, buttonLink = null, buttonText = "Info") {
     const rand = Math.floor(Math.random() * 10000),
-        randName = name.toLowerCase().replaceAll(" ", "").replaceAll("++", "pp") + rand;
+        randName = name.toLowerCase().replaceAll(" ", "").replaceAll("++", "pp").replaceAll("(", "").replaceAll(")", "") + rand;
     
     return `
     <div class="d-flex justify-content-center m-2">
