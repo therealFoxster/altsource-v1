@@ -21,7 +21,7 @@ I don't think I'll be able to dedicate a lot of time into this project so apps w
 * [AltStore beta](https://faq.altstore.io/patreon/beta-features/)
 
 ## Source Preview
-[https://foxster-mp4.github.io/AltSource/](https://foxster-mp4.github.io/AltSource/)
+[https://foxster-mp4.github.io/altsource/](https://foxster-mp4.github.io/altsource/)
 
 ## Screenshots
 <img src="source-screenshots/IMG_1515.PNG" alt="screenshot1" width="300"/>
