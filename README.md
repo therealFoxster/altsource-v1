@@ -32,6 +32,6 @@ I don't think I'll be able to dedicate a lot of time into this project so apps w
 * Twitter: [@FoxsterPrivate](https://twitter.com/FoxsterPrivate)
 
 ## Screenshots
-<img src="source-screenshots/IMG_1515.PNG" alt="screenshot1" width="300"/>
-<img src="source-screenshots/IMG_1512.PNG" alt="screenshot2" width="300"/>
-<img src="source-screenshots/IMG_1513.PNG" alt="screenshot3" width="300"/>
+<img src="https://raw.githubusercontent.com/foxster-mp4/__screenshots/master/altsource/IMG_1515.PNG" alt="screenshot1" width="300"/>
+<img src="https://raw.githubusercontent.com/foxster-mp4/__screenshots/master/altsource/IMG_1512.PNG" alt="screenshot2" width="300"/>
+<img src="https://raw.githubusercontent.com/foxster-mp4/__screenshots/master/altsource/IMG_1513.PNG" alt="screenshot3" width="300"/>
