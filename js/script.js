@@ -29,7 +29,7 @@ $.getJSON("apps.json", function (json) {
     });
 });
 
-document.querySelector("#add").addEventListener("click", () => location.href = "altstore://source?url=https://foxster.page.link/altsource");
+document.querySelector("#add").addEventListener("click", () => location.href = "altstore://source?url=https://foxster-mp4.github.io/altsource/apps.json");
 
 function appContainer(name, shortDesc, longDesc, version = "N/A", versionDate = "N/A", iconURL="apps/blank-app-icon.jpeq", newApp = false, buttonLink = null, buttonText = "Info") {
     const rand = Math.floor(Math.random() * 10000),
