@@ -85,6 +85,11 @@ body#uitableview {
   margin-top: -8px;
 }
 
+.container {
+  margin-right: unset;
+  margin-left: unset;
+}
+
 .text-container p {
   padding: 0 !important;
   font-size: 15px;
