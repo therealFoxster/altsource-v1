@@ -1,65 +1,48 @@
-$.getJSON("apps.json", function (json) { 
-    json.apps.sort((a, b) => { 
-        // If a < b
-        return (new Date(a.versionDate)).getTime() - (new Date(b.versionDate)).getTime();
-    });
+$.getJSON("apps.json", function (json) {
+  // Sort in descending order of version date
+  json.apps.sort((a, b) => {
+    // If b < a
+    return (new Date(b.versionDate)).getTime() - (new Date(a.versionDate)).getTime();
+  });
+
+  const today = new Date(),
+        daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+        months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+  // Today
+  const dayOfWeek = daysOfWeek[today.getDay()],
+        month = months[today.getMonth()],
+        date = today.getDate();
+  $("#today").text(`${dayOfWeek}, ${month} ${date}`)
+
+  json.apps.forEach(app => {
+    const versionDate = new Date(app.versionDate),
+          timeDifference = Math.abs(today - versionDate),
+          daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24)); 
+    console.log(daysDifference);
     
-    json.apps.forEach(app => {
-        const versionDate = new Date(app.versionDate),
-            today = new Date(),
-            timeDifference = Math.abs(today - versionDate),
-            daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24)); 
-        let newApp = (daysDifference < 14 ? true : false); // App is less than 14 days-old
-        
-        let month = versionDate.toUTCString().split(" ")[2],
-            date = versionDate.getDate(),
-            dateStr = `${month} ${date}, ${versionDate.getFullYear()}`;
+    const month = versionDate.toUTCString().split(" ")[2], // dd (e.g. Jan)
+          date = versionDate.getDate(), // D (e.g., 3)
+          dateStr = `${month} ${date}, ${versionDate.getFullYear()}`; // YYYY (e.g., 2022)
+    console.log(dateStr);
 
-        document.querySelector("#apps").insertAdjacentHTML("afterbegin", appContainer(app.name, app.subtitle, app.localizedDescription, app.version, dateStr, app.iconURL, newApp));
-    });
-
-    document.querySelector(".app-text p span").classList.add("badge", "new"); // Add "New" badge to first app by default
-
-    document.querySelectorAll(".btn").forEach(btn => {
-        btn.addEventListener("click", e => {
-            e.target.blur();
-            btn.classList.add("focus");
-            setTimeout(() => btn.classList.remove("focus"), 100);
-        });
-    });
-});
-
-document.querySelector("#add").addEventListener("click", () => location.href = "altstore://source?url=https://foxster-mp4.github.io/altsource/apps.json");
-
-function appContainer(name, shortDesc, longDesc, version = "N/A", versionDate = "N/A", iconURL="apps/blank-app-icon.jpeq", newApp = false, buttonLink = null, buttonText = "Info") {
-    const rand = Math.floor(Math.random() * 10000),
-        randName = name.toLowerCase().replaceAll(" ", "").replaceAll("++", "pp").replaceAll("(", "").replaceAll(")", "") + rand;
-    
-    return `
-    <div class="d-flex justify-content-center m-2">
-        <div class="app blur-bg d-flex flex-column">
-            <div class="app d-flex align-items-center p-3">
-                <img src="${iconURL}" alt="${name.toLowerCase()}-app-icon" class="app-icon" onerror="this.onerror=null;this.src='apps/blank-app-icon.jpeg';">
-                <div class="app-text p-2 flex-grow-1">
-                    <p class="text-adaptive2 fs-6">
-                        ${name} <span class="${(newApp ? "new " : "")}badge text-bg-danger text-uppercase"> </span>
-                    </p>
-                    <p class="fs-7 app-desc-short">${shortDesc}</p>
-                </div>
-                <button type="button" class="btn btn-primary btn-sm rounded-pill bold text-uppercase fw-semibold" ` +
-                (buttonLink ?
-                    `onclick="location.href='${buttonLink}';"`
-                    :
-                    `data-bs-toggle="collapse" data-bs-target="#${randName}Desc" aria-expanded="false" aria-controls="${randName}Desc"`
-                ) + `>${buttonText}</button>
-            </div>
-            <div class="app-text flex-grow-1" style="margin: 0 12px; padding: 0 8px;">
-                <p class="fs-7 text-adaptive2 app-desc-long collapse" id="${randName}Desc" style="margin-top: -8px;">
-                    ${(longDesc ? longDesc.split("\n \n")[0].replaceAll("\n", "<br>") : "")}
-                    <br><span class="app-version fw-normal text-end" id="${randName}Version" style="display: block; text-align: end!important; margin-top: 8px">v${version} (${versionDate})</span><br>
-                </p>
-            </div>
+    let html = `
+    <div class="cell custom" onclick="window.location='app.html?id=${app.id}';">
+      <div class="cell-icon" id="${app.id}">
+        <img src="${app.iconURL}" alt="${app.id}_icon" class="app icon">
+      </div>
+      <div class="cell-inner">
+        <div class="cell-labels">
+          <p class="cell-text">${app.name}</p>
+          <p class="cell-detail-text">${app.subtitle}</p>
         </div>
-    </div>
-    `;
-}
+        <div class="button">
+          <a href="altstore://install?url=${app.downloadURL}"><button>install</button></a>
+          <p class="detail-text">Requires AltStore</p>
+        </div>
+      </div>
+    </div>`;
+
+    $("#tweaked-apps").append(html);
+  });
+});

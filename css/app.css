@@ -1,0 +1,240 @@
+#uitableview p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 0;
+}
+
+body#uitableview {
+  line-height: unset;
+}
+
+.carousel-indicators button {
+  border-radius: unset;
+  min-width: 36px !important;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.carousel.slide {
+  margin-top: 8px !important;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 85%;
+  max-width: 500px;
+}
+
+.carousel.slide img {
+  border-radius: 14px;
+}
+
+#uitableview .app.icon {
+  max-width: 110px;
+  /* margin: 20px 0; */
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#uitableview #main .custom.cell .cell-text {
+  font-size: 22px !important;
+  font-weight: 550;
+}
+
+#uitableview #main .custom.cell .cell-detail-text {
+  font-size: 14px !important;
+  /* font-weight: 550; */
+}
+
+.buttons {
+  display: flex;
+}
+
+.section-container {
+  margin-top: 0 !important;
+}
+.section-container:first-of-type {
+  margin-top: -100px !important;
+}
+
+.buttons .button:first-of-type {
+  margin-right: 12px;
+}
+.install.button button {
+  color: white;
+  background: var(--primary-color);
+}
+
+#main.section {
+  padding-bottom: 10px;
+}
+
+#uitableview .cell .cell-inner {
+  border-top: none !important;
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 18px;
+}
+
+#main {
+  margin-top: -8px;
+}
+
+.text-container p {
+  padding: 0 !important;
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.text-container .text.header {
+  font-size: 24px !important;
+  font-weight: 650 !important;
+  text-transform: capitalize !important;
+  opacity: 100% !important;
+}
+
+#whats-new.section .text-container:first-of-type {
+  margin-top: 8px;
+}
+
+.section .text-container:first-of-type {
+  border-top: 0.5px solid var(--cell-separator);
+  padding-top: 8px;
+  margin-top: 28px;
+}
+
+.text-container .custom.text {
+  font-size: 16px;
+  margin-top: 10px !important;
+  opacity: 1;
+}
+
+.link.cell {
+  text-decoration: none;
+  color: unset;
+}
+
+.link.cell .cell-text {
+  color: var(--primary-color);
+}
+
+.link.cell .cell-inner {
+  margin: 0px 18px !important;
+  padding: 24px 0 !important;
+  /* border: none !important; */
+  border-bottom: 0.5px solid;
+}
+
+#credits .link.cell .cell-inner {
+  padding: 10px 0 !important;
+}
+
+.text-container a {
+  /* margin-right: 14px; */
+  font-size: 16px;
+  color: var(--primary-color);
+  text-decoration: none !important;
+}
+.text-container a:visited {
+  color: var(--primary-color);
+}
+
+.description.text {
+  line-height: 22px;
+}
+
+#version-description, #preview-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: '';
+  -webkit-line-clamp: 3;
+          line-clamp: 3;
+}
+
+.text-container .wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.text-container .wrapper .more {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-left: 36px;
+  background: linear-gradient(to right, transparent, var(--cell-background) 35%);
+}
+
+.more button, #back button {
+  background: unset;
+  padding: 0;
+  text-transform: none;
+  font-weight: normal;
+  border-radius: 0;
+  min-width: 0 !important;
+}
+
+#back-button {
+  margin-top: 10px !important;
+  margin-left: 2px !important;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+
+#back-button span {
+  margin-left: 2px;
+}
+
+#subtitle {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+          line-clamp: 2;
+}
+
+.install.button .detail-text {
+  width: 120px;
+}
+
+.button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.button>.detail-text {
+  margin-top: 32px !important;
+  font-size: 8px;
+  opacity: 0.5;
+}
+
+.button>.detail-text {
+  /* background-color: red; */
+  position: absolute;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 8px;
+  opacity: 0.5;
+  width: 76px;
+}
+
+.container {
+  height: 110px;
+  display: flex;
+  /* background-color: red ; */
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (prefers-color-scheme: dark) {
+  .text-container .wrapper .more {
+    background: linear-gradient(to right, transparent, var(--table-background-dark) 35%);
+  }
+}

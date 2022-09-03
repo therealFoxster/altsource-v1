@@ -1,0 +1,88 @@
+{
+    "name": "Foxster",
+    "identifier": "me.foxster.AltSource",
+    "apps": [
+        {
+            "name": "YouTube++ (Old)",
+            "bundleIdentifier": "com.google.ios.youtube.pp.old",
+            "developerName": "Foxster",
+            "subtitle": "Premium features and then some.",
+            "version": "16.46.5",
+            "versionDate": "2021-12-04T12:00:00-00:00",
+            "versionDescription": "\"Bug fixes, performance improvements, and more cat videos.\"\n\nTweaks\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.4 \n• com.ps.ytsystemappearance v1.0.0 \n• me.alfhaily.cercube v5.3.4 \n• weeb.lillie.youtubedislikesreturn v1.6.5",
+            "downloadURL": "https://drive.google.com/uc?export=download&id=1LUT2tgLmvm6w3OuJ2_JvgF-mMsDFw3Ux&confirm=t",
+            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!\n\nUse this version if you dislike having tweak icons overlaid on the video player.\n \nNewer YouTube versions (from v17.01.4) made it very hard (likely impossible) to inject tweak icons into the video tab bar, hence why many tweaks developer resorted to overlaying icons on the video player, which some people (me included) find intriguing. This YouTube++ version uses YouTube v16.46.5 and Cercube v5.3.4 to overcome that.",
+            "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/OldYouTube++/icon.png",
+            "tintColor": "ff0000",
+            "size": 105316729,
+            "screenshotURLs": [
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/OldYouTube++/screenshots/IMG_2857.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/OldYouTube++/screenshots/IMG_2858.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/OldYouTube++/screenshots/IMG_2859.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/OldYouTube++/screenshots/IMG_2860.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/OldYouTube++/screenshots/IMG_2861.PNG?raw=true"
+            ]
+        },
+        {
+            "name": "Spotify++",
+            "bundleIdentifier": "com.foxster.spotify.pp",
+            "developerName": "Foxster",
+            "subtitle": "Ad-free music. For free.",
+            "version": "8.6.42",
+            "versionDate": "2021-07-09T12:00:00-00:00",
+            "versionDescription": "\"We’re always making changes and improvements to Spotify. To make sure you don’t miss a thing, just keep your Updates turned on.\n\nBug fixes and improvements in this version include:\n- Fixed stability issues\"\n\nKnown issues\n• Log in with Google and Apple is broken\n• App won't deactivate with AltStore\n\nTweaks\n• com.julioverne.spotilife v1.7a \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52",
+            "downloadURL": "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/Spotify++.ipa?raw=true",
+            "localizedDescription": "This tweaked version of Spotify is completely ad-free and contains various customization features (thanks to @atebitsy/aesthyrica).",
+            "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/Spotify++/icon.png",
+            "tintColor": "1db954",
+            "size": 50496182,
+            "screenshotURLs": [
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/screenshots/IMG_2841.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/screenshots/IMG_2843.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/screenshots/IMG_2845.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/screenshots/IMG_2846.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/screenshots/IMG_2847.PNG?raw=true"
+            ]
+        },
+        {
+            "name": "YouTube++",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "developerName": "Foxster",
+            "subtitle": "Premium features and then some.",
+            "version": "17.30.3",
+            "versionDate": "2022-08-03T12:00:00-00:00",
+            "versionDescription": "\"Bug fixes, stability improvements, repairs to space-time continuum.\"\n\nTweaks\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.8 \n• com.ps.ytsystemappearance v1.0.0 \n• me.alfhaily.cercube v5.3.9 \n• weeb.lillie.youtubedislikesreturn v1.6.5",
+            "downloadURL": "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/YouTube++.ipa?raw=true",
+            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!",
+            "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/YouTube++/icon.png",
+            "tintColor": "ff0000",
+            "size": 95758179,
+            "screenshotURLs": [
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/screenshots/IMG_2829.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/screenshots/IMG_2831.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/screenshots/IMG_2832.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/screenshots/IMG_2833.PNG?raw=true"
+            ]
+        },
+        {
+            "name": "Sneaky Sasquatch",
+            "bundleIdentifier": "com.rac7.SneakySasquatch",
+            "developerName": "RAC7 Games",
+            "subtitle": "Apple Arcade Game of the Year 2020!",
+            "version": "1.3.3",
+            "versionDate": "2020-05-20T12:00:00-00:00",
+            "versionDescription": "We added lots of new things including: \n- The Town Hall is now open! \n- A permits office, so you can get a taxi license and drive people around \n- A records room that keeps track of high scores and leaderboards \n- A daily challenge board \n- An outfit customizer so you can create your own disguises \n- A new ski school to teach you how to do spins and flips \n- New skiing equipment and events \n- Running races to unlock shoes so you can run faster \n- New construction projects \n\nThanks for playing! More updates will be coming soon!",
+            "downloadURL": "https://drive.google.com/uc?export=download&id=1xP2Je5Va066RyNSwJnyWcb4y4L11T_7R&confirm=t",
+            "localizedDescription": "Live the life of a Sasquatch and do regular everyday Sasquatch stuff like:\n- Sneak around campsites\n- Disguise yourself in human clothing\n- Eat food from unguarded coolers and picnic baskets\n- And more!",
+            "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/SneakySasquatch/icon.png",
+            "tintColor": "396832",
+            "size": 193121501,
+            "screenshotURLs": [
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/SneakySasquatch/screenshots/IMG_2851.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/SneakySasquatch/screenshots/IMG_2852.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/SneakySasquatch/screenshots/IMG_2854.PNG?raw=true",
+                "https://github.com/foxster-mp4/AltSource/blob/master/apps/SneakySasquatch/screenshots/IMG_2855.PNG?raw=true"
+            ]
+        }
+    ]
+}
