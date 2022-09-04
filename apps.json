@@ -52,32 +52,32 @@
             "bundleIdentifier": "com.google.ios.youtube",
             "developerName": "Foxster",
             "subtitle": "Ad-free, background playback, download videos and more",
-            "version": "1.0",
-            "versionDate": "2022-08-10T12:00:00-00:00",
-            "versionDescription": "YouTube v17.30.3 (Aug 3, 2022):\n\"Bug fixes, stability improvements, repairs to space-time continuum.\"\n\nTweaks\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.8 \n• com.ps.ytsystemappearance v1.0.0 \n• me.alfhaily.cercube v5.3.9 \n• weeb.lillie.youtubedislikesreturn v1.6.5",
+            "version": "1.0.0",
+            "versionDate": "2022-09-03T12:00:00-00:00",
+            "versionDescription": "YouTube v17.34.3\n\nTweaks\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.9 \n• com.ps.ytsystemappearance v1.0.0 \n• me.alfhaily.cercube v5.3.11 \n• weeb.lillie.youtubedislikesreturn v1.6.6 \n",
             "credits": [
                 {
-                    "item": "YouTube",
                     "author": "Google LLC",
+                    "item": "YouTube",
                     "url": "https://www.youtube.com"
                 },
                 {
-                    "item": "NoYTPremium, YouPiP, YTSystemAppearance, Return YouTube Dislike",
                     "author": "PoomSmart",
+                    "item": "NoYTPremium, YouPiP, YTSystemAppearance, Return YouTube Dislike",
                     "url": "https://twitter.com/PoomSmart"
                 },
                 {
-                    "item": "Cercube",
                     "author": "Majd Alfhaily",
+                    "item": "Cercube",
                     "url": "https://twitter.com/freemanrepo"
                 },
                 {
-                    "item": "Return YouTube Dislike",
                     "author": "kirb",
+                    "item": "Return YouTube Dislike",
                     "url": "https://twitter.com/hbkirb"
                 }
             ],
-            "downloadURL": "https://github.com/foxster-mp4/AltSource/blob/master/apps/YouTube++/YouTube++.ipa?raw=true",
+            "downloadURL": "https://drive.google.com/uc?export=download&id=184xcpMC7A9rR22HAd-09yIhc9jK0h02m&confirm=t",
             "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!",
             "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/YouTube++/icon.png",
             "tintColor": "ff0000",
