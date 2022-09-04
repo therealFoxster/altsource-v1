@@ -1,6 +1,6 @@
 :root {
   --altstore-color: rgba(1, 128, 132, 1);
-  --altstore-color-custom: rgba(1, 128, 132, 0.85);
+  --altstore-color-custom: rgba(1, 128, 132, 0.8);
 }
 
 /* Banner */
@@ -14,7 +14,7 @@
 
 .banner.cell button {
   background-color: white;
-  color: rgba(1, 128, 132, 1) !important;
+  color: var(--altstore-color-custom) !important;
 }
 
 .banner.cell .cell-labels p {
