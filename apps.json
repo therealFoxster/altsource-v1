@@ -13,22 +13,22 @@
             "versionDescription": "Spotify v8.6.42 (Jul 9, 2021):\n\"We’re always making changes and improvements to Spotify. To make sure you don’t miss a thing, just keep your Updates turned on.\n\nBug fixes and improvements in this version include:\n- Fixed stability issues\"\n\nKnown issues\n• Log in with Google and Apple is broken\n• App won't deactivate with AltStore\n\nTweaks\n• com.julioverne.spotilife v1.7a \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52",
             "credits": [
                 {
-                    "item": "",
+                    "items": "",
                     "author": "Spotify",
                     "url": "https://www.spotify.com"
                 },
                 {
-                    "item": "Spotilife",
+                    "items": "Spotilife",
                     "author": "julioverne",
                     "url": "https://twitter.com/ijulioverne"
                 },
                 {
-                    "item": "Sposify",
+                    "items": "Sposify",
                     "author": "atebitsy",
                     "url": "https://www.reddit.com/user/atebitsy"
                 },
                 {
-                    "item": "Sposify Fix",
+                    "items": "Sposify Fix",
                     "author": "level3tjg",
                     "url": "https://twitter.com/level3tjg"
                 }
@@ -52,32 +52,32 @@
             "bundleIdentifier": "com.google.ios.youtube",
             "developerName": "Foxster",
             "subtitle": "Ad-free, background playback, download videos and more",
-            "version": "1.0.0",
+            "version": "17.34.3",
             "versionDate": "2022-09-03T12:00:00-00:00",
             "versionDescription": "YouTube v17.34.3\n\nTweaks\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.9 \n• com.ps.ytsystemappearance v1.0.0 \n• me.alfhaily.cercube v5.3.11 \n• weeb.lillie.youtubedislikesreturn v1.6.6 \n",
             "credits": [
                 {
                     "author": "Google LLC",
-                    "item": "YouTube",
+                    "items": "YouTube",
                     "url": "https://www.youtube.com"
                 },
                 {
                     "author": "PoomSmart",
-                    "item": "NoYTPremium, YouPiP, YTSystemAppearance, Return YouTube Dislike",
+                    "items": "NoYTPremium, YouPiP, YTSystemAppearance, Return YouTube Dislike",
                     "url": "https://twitter.com/PoomSmart"
                 },
                 {
                     "author": "Majd Alfhaily",
-                    "item": "Cercube",
+                    "items": "Cercube",
                     "url": "https://twitter.com/freemanrepo"
                 },
                 {
                     "author": "kirb",
-                    "item": "Return YouTube Dislike",
+                    "items": "Return YouTube Dislike",
                     "url": "https://twitter.com/hbkirb"
                 }
             ],
-            "downloadURL": "https://drive.google.com/uc?export=download&id=184xcpMC7A9rR22HAd-09yIhc9jK0h02m&confirm=t",
+            "downloadURL": "https://drive.google.com/uc?export=download&id=1au_NrfEboUD1_tjYzysga3dq5xxTBM1w&confirm=t",
             "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!",
             "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/YouTube++/icon.png",
             "tintColor": "ff0000",

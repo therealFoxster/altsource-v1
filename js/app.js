@@ -48,7 +48,7 @@ $.getJSON("apps.json", function (json) {
       <div class="cell-inner">
         <div class="cell-labels">
           <p class="cell-text">${credit.author}</p>
-          <p class="cell-detail-text">${credit.item ?? ""}</p>
+          <p class="cell-detail-text">${credit.items ?? ""}</p>
         </div>
         <div class="grey cell-accessory-icon">
           <i class="bi bi-chevron-right"></i>

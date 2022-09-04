@@ -242,4 +242,12 @@ body#uitableview {
   .text-container .wrapper .more {
     background: linear-gradient(to right, transparent, var(--table-background-dark) 35%);
   }
+
+  .link.cell .cell-text {
+    color: var(--primary-color-dark);
+  }
+
+  .install.button button {
+    background: var(--primary-color-dark);
+  }
 }
