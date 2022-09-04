@@ -8,9 +8,9 @@
             "bundleIdentifier": "com.foxster.spotify.pp",
             "developerName": "Foxster",
             "subtitle": "Ad-free, unlimited skips and more",
-            "version": "1.0.0",
-            "versionDate": "2022-07-28T12:00:00-00:00",
-            "versionDescription": "Spotify v8.6.42 (Jul 9, 2021):\n\"We’re always making changes and improvements to Spotify. To make sure you don’t miss a thing, just keep your Updates turned on.\n\nBug fixes and improvements in this version include:\n- Fixed stability issues\"\n\nKnown issues\n• Log in with Google and Apple is broken\n• App won't deactivate with AltStore\n\nTweaks\n• com.julioverne.spotilife v1.7a \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52",
+            "version": "8.6.42t",
+            "versionDate": "2022-09-03T12:00:00-00:00",
+            "versionDescription": "Spotify v8.6.42 (Jul 9, 2021)\n\nTweaks\n• com.julioverne.spotilife v1.8 \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52\n\nKnown issues\n• Log in with Google and Apple is broken\n• App won't deactivate with AltStore",
             "credits": [
                 {
                     "items": "",
@@ -33,11 +33,11 @@
                     "url": "https://twitter.com/level3tjg"
                 }
             ],
-            "downloadURL": "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/Spotify++.ipa?raw=true",
+            "downloadURL": "https://drive.google.com/uc?export=download&id=1VgAmuJ-ukft40t0FjKk89UYn6BbguQtu&confirm=t",
             "localizedDescription": "This tweaked version of Spotify is completely ad-free and contains various customization features (thanks to @atebitsy/aesthyrica).",
             "iconURL": "https://raw.githubusercontent.com/foxster-mp4/AltSource/master/apps/Spotify++/icon.png",
             "tintColor": "1db954",
-            "size": 50496182,
+            "size": 50512487,
             "screenshotURLs": [
                 "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/screenshots/IMG_2841.PNG?raw=true",
                 "https://github.com/foxster-mp4/AltSource/blob/master/apps/Spotify++/screenshots/IMG_2843.PNG?raw=true",
