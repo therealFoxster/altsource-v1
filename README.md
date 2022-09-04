@@ -1,13 +1,10 @@
 # Foxster's AltStore Source
-> Tweak-injected iOS apps and more.
+AltStore source with tweak-injected apps and possibly more
 
-A source for AltStore with tweaked apps (made by yours truly) and a number of other apps not found on the iOS App Store.
+https://foxster-mp4.github.io/altsource/
 
 ## Pre-requisite
 * [AltStore beta](https://faq.altstore.io/patreon/beta-features/)
-
-## Source Preview
-https://foxster-mp4.github.io/altsource/
 
 ## Questions & Answers
 
@@ -23,6 +20,11 @@ All of the tweaked apps available on the source were made with a decrypted .ipa 
 
 I don't think I'll be able to dedicate a lot of time into this project so apps will only be updated when needed. Feel free to [let me know](#contact-me) if something breaks down the road!
 
+## Screenshots
+<img src="screenshots/IMG_1515.PNG" alt="screenshot1" width="300"/>
+<img src="screenshots/IMG_1512.PNG" alt="screenshot2" width="300"/>
+<img src="screenshots/IMG_1513.PNG" alt="screenshot3" width="300"/>
+
 ## Credits
 * [Riley Testut](https://github.com/rileytestut) - AltStore and AltStore beta
 * [Martin Pelteshki](https://github.com/Al4ise) - Azule
@@ -30,8 +32,3 @@ I don't think I'll be able to dedicate a lot of time into this project so apps w
 ## Contact Me
 * Email: [huythefox@gmail.com](mailto:huythefox@gmail.com)
 * Twitter: [@FoxsterPrivate](https://twitter.com/FoxsterPrivate)
-
-## Screenshots
-<img src="screenshots/IMG_1515.PNG" alt="screenshot1" width="300"/>
-<img src="screenshots/IMG_1512.PNG" alt="screenshot2" width="300"/>
-<img src="screenshots/IMG_1513.PNG" alt="screenshot3" width="300"/>
