@@ -18,6 +18,10 @@ body#uitableview {
   padding-right: 0;
 }
 
+.banner .cell-icon img {
+  box-sizing: unset;
+}
+
 .carousel.slide {
   margin-top: 8px !important;
   overflow: hidden;
