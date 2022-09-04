@@ -5,7 +5,7 @@
         {
             "id": "spotify",
             "name": "Spotify",
-            "bundleIdentifier": "com.foxster.spotify.pp",
+            "bundleIdentifier": "com.spotify.client",
             "developerName": "Foxster",
             "subtitle": "Ad-free, unlimited skips and more",
             "version": "8.6.42t",
