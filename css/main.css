@@ -48,10 +48,10 @@
 button {
   border: none;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 15px;
   color: var(--primary-color);
-  font-weight: 650;
-  padding: 4px 12px;
+  font-weight: 700;
+  padding: 5px 12px;
   min-width: 76px;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.075);
