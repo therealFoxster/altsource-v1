@@ -1,6 +1,6 @@
 :root {
   --altstore-color: rgba(1, 128, 132, 1);
-  --altstore-color-custom: rgba(1, 128, 132, 0.8);
+  --altstore-color-custom: rgba(1, 128, 128, 0.8);
 }
 
 /* Banner */
@@ -10,11 +10,13 @@
   background: var(--altstore-color-custom) !important;
   /* background: rgba(10, 110, 110, 1) !important; */
   /* background-color: rgba(1, 128, 132, 0.75) !important; */
+  border-bottom: 0.5px solid var(--cell-separator);
 }
 
 .banner.cell button {
-  background-color: white;
-  color: var(--altstore-color-custom) !important;
+  background-color: white; color: var(--altstore-color) !important;
+  /* background-color: var(--altstore-color); color: white !important; */
+  /* background-color: var(--primary-color); color: white !important; */
 }
 
 .banner.cell .cell-labels p {
@@ -33,7 +35,7 @@
   font-weight: 400;
   font-size: 11px !important;
   line-height: 12px !important;
-  opacity: 0.7 !important;
+  opacity: 0.7 !important; 
 }
 
 .banner.cell .cell-inner {
@@ -49,7 +51,7 @@ button {
   font-size: 16px;
   color: var(--primary-color);
   font-weight: 650;
-  padding: 5px 12px;
+  padding: 4px 12px;
   min-width: 76px;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.075);
@@ -146,7 +148,8 @@ button:active {
 
   #uitableview .custom.section-header,
   #uitableview .custom.section-container.app.icon,
-  #uitableview .text-container {
+  #uitableview .text-container,
+  #uitableview .banner.cell {
     border-color: var(--cell-separator-dark);
   }
 

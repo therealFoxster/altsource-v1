@@ -10,7 +10,7 @@
             "subtitle": "Ad-free, unlimited skips and more",
             "version": "8.6.42",
             "versionDate": "2022-09-03T12:00:00-00:00",
-            "versionDescription": "Spotify v8.6.42 (Jul 9, 2021)\n\nTweaks\n• com.julioverne.spotilife v1.8 \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52\n\nKnown issues\n• Log in with Google and Apple is broken\n• App won't deactivate with AltStore",
+            "versionDescription": "• Spotify v8.6.42 (Jul 9, 2021)\n• com.julioverne.spotilife v1.8 \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52\n\nKnown issues\n• Log in with Google and Apple is broken\n• App won't deactivate with AltStore",
             "credits": [
                 {
                     "items": "",
@@ -54,7 +54,7 @@
             "subtitle": "Ad-free, background playback, download videos and more",
             "version": "17.32.2",
             "versionDate": "2022-09-03T12:00:00-00:00",
-            "versionDescription": "YouTube v17.32.2 (Aug 14, 2022)\n\nTweaks\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.9 \n• com.ps.ytsystemappearance v1.0.0 \n• me.alfhaily.cercube v5.3.11 \n• weeb.lillie.youtubedislikesreturn v1.6.6 \n",
+            "versionDescription": "• YouTube v17.32.2 (Aug 14, 2022)\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.9 \n• com.ps.ytsystemappearance v1.0.0 \n• me.alfhaily.cercube v5.3.11 \n• weeb.lillie.youtubedislikesreturn v1.6.6 \n",
             "credits": [
                 {
                     "author": "Google LLC",

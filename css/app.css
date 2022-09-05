@@ -27,7 +27,9 @@ body#uitableview {
   overflow: hidden;
   margin: 0 auto;
   width: 85%;
-  max-width: 500px;
+  max-width: 350px;
+  border: 1px solid var(--cell-separator);
+  border-radius: 14px;
 }
 
 .carousel.slide img {
@@ -43,7 +45,7 @@ body#uitableview {
 
 #uitableview #main .custom.cell .cell-text {
   font-size: 22px !important;
-  font-weight: 550;
+  font-weight: 600;
 }
 
 #uitableview #main .custom.cell .cell-detail-text {
@@ -71,7 +73,7 @@ body#uitableview {
 }
 
 #main.section {
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 
 #uitableview .cell .cell-inner {
@@ -107,14 +109,18 @@ body#uitableview {
   opacity: 100% !important;
 }
 
-#whats-new.section .text-container:first-of-type {
+/* #whats-new.section .text-container:first-of-type {
   margin-top: 8px;
+} */
+
+#preview .text-container:first-of-type {
+  margin-top: 18px;
 }
 
 .section .text-container:first-of-type {
   border-top: 0.5px solid var(--cell-separator);
   padding-top: 8px;
-  margin-top: 28px;
+  margin-top: 24px;
 }
 
 .text-container .custom.text {
@@ -201,6 +207,7 @@ body#uitableview {
 }
 
 #subtitle {
+  line-height: 18px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -253,5 +260,9 @@ body#uitableview {
 
   .install.button button {
     background: var(--primary-color-dark);
+  }
+
+  .carousel.slide {
+    border-color: var(--cell-separator-dark);
   }
 }
