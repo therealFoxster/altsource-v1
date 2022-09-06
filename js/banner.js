@@ -11,7 +11,7 @@ $("body").prepend(`
         <p class="cell-detail-text">Add this source to AltStore to receive app updates (requires AltStore beta)</p>
       </div>
       <div class="add">
-        <a href="altstore://source?url=https://foxster-mp4.github.io/altsource/apps.json"><button>Add</button></a>
+        <a href="altstore://source?url=https://therealFoxster.github.io/altsource/apps.json"><button>Add</button></a>
       </div>
     </div>
   </div>
