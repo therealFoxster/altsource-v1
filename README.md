@@ -1,7 +1,7 @@
 # Foxster's AltStore Source
 AltStore source with tweak-injected apps and possibly more
 
-https://foxster-mp4.github.io/altsource/
+https://therealFoxster.github.io/altsource/
 
 ## Pre-requisite
 * [AltStore beta](https://faq.altstore.io/patreon/beta-features/)
