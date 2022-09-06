@@ -31,4 +31,4 @@ I don't think I'll be able to dedicate a lot of time into this project so apps w
 
 ## Contact Me
 * Email: [huythefox@gmail.com](mailto:huythefox@gmail.com)
-* Twitter: [@FoxsterPrivate](https://twitter.com/FoxsterPrivate)
+* Twitter: [@FoxsterPrivate](https://twitter.com/therealFoxster)
