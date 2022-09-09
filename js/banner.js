@@ -3,7 +3,7 @@ $("body").prepend(`
 <div class="section">
   <div class="banner cell">
     <div class="cell-icon">
-      <img src="apps/altstore-icon.jpg" alt="altstore-icon" class="icon">
+      <img src="img/icons/AltStore.jpg" alt="altstore-icon" class="icon">
     </div>
     <div class="cell-inner">
       <div class="cell-labels">

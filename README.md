@@ -21,9 +21,9 @@ All of the tweaked apps available on the source were made with a decrypted .ipa 
 I don't think I'll be able to dedicate a lot of time into this project so apps will only be updated when needed. Feel free to [let me know](#contact-me) if something breaks down the road!
 
 ## Screenshots
-<img src="screenshots/IMG_1515.PNG" alt="screenshot1" width="300"/>
-<img src="screenshots/IMG_1512.PNG" alt="screenshot2" width="300"/>
-<img src="screenshots/IMG_1513.PNG" alt="screenshot3" width="300"/>
+<img src="img/screenshots/AltSource/IMG_1515.PNG" alt="screenshot1" width="300"/>
+<img src="img/screenshots/AltSource/IMG_1512.PNG" alt="screenshot2" width="300"/>
+<img src="img/screenshots/AltSource/IMG_1513.PNG" alt="screenshot3" width="300"/>
 
 ## Credits
 * [Riley Testut](https://github.com/rileytestut) - AltStore and AltStore beta
