@@ -30,5 +30,4 @@ I don't think I'll be able to dedicate a lot of time into this project so apps w
 * [Martin Pelteshki](https://github.com/Al4ise) - Azule
 
 ## Contact Me
-* Email: [huythefox@gmail.com](mailto:huythefox@gmail.com)
-* Twitter: [@FoxsterPrivate](https://twitter.com/therealFoxster)
+* Twitter: [@therealFoxster](https://twitter.com/therealFoxster)
