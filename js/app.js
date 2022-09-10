@@ -32,7 +32,9 @@ $.getJSON("apps.json", function (json) {
     <div class="carousel-item ${index == 0 ? "active" : ""}">
       <img src="${screenshot}" class="d-block w-100" alt="...">
     </div>`;
-    $(".carousel-inner").append(carouselItem);
+    // $(".carousel-inner").append(carouselItem);
+    const image = `<img src="${screenshot}" alt="screenshot-${index + 1}">`;
+    $("#preview-images").append(image);
   });
 
   $("#preview-text").text(app.localizedDescription);

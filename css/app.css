@@ -220,6 +220,33 @@ body#uitableview {
   width: 120px;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+#preview-images::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#preview-images {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+#preview-images {
+  display: flex;
+  overflow-x: scroll;
+  padding: 0 16px;
+}
+
+#preview-images img {
+  margin-right: 8px;
+  border: 1px solid var(--cell-separator);
+  border-radius: 16px;
+  width: 70%;
+  max-width: 350px;
+}
+
 .button {
   display: flex;
   align-items: flex-start;
