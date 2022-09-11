@@ -1,4 +1,9 @@
 const urlSearchParams = new URLSearchParams(window.location.search);
+
+if (!urlSearchParams.has('id')) {
+  window.location.replace("index.html");
+}
+
 const id = urlSearchParams.get('id');
 const moreButton = `<a id="more" onclick="revealTruncatedText(this);"><button>more</button></a>`;
 
@@ -6,6 +11,7 @@ $.getJSON("apps.json", function (json) {
   const apps = json.apps.filter(app => app.id === id);
   const app = apps[0];
   
+  $("title").text(`${app.name} – AltSource`);
   $("#app-icon").attr('src', app.iconURL);
   $("#app-name").text(app.name);
   $("#subtitle").text(app.subtitle);

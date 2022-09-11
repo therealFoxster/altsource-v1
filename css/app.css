@@ -20,11 +20,41 @@
 
 #buttons { display: flex; }
 
+/* Install button */
 #install button {
   color: white;
   background: var(--primary-color);
 }
 
+#back button,
+#more button {
+  min-width: 0 !important;
+  margin-top: 10px !important;
+  margin-left: 2px !important;
+  padding: 0;
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: none;
+  border-radius: 4px;
+  border: none;
+  background: unset;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+/* Back button */
+#back-button span { margin-left: 2px; }
+#back-button {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+
+/* more button */
+.section .text-container .wrapper {
+  position: relative;
+  width: 100%;
+}
 .text-container .wrapper #more {
   position: absolute;
   bottom: 0;
@@ -33,69 +63,23 @@
   background: linear-gradient(to right, transparent, var(--cell-background) 35%);
 }
 
-#more button,
-#back button {
-  background: unset;
-  padding: 0;
-  text-transform: none;
-  font-size: 15px;
-  font-weight: normal;
-  border-radius: 4px;
-  border: none;
-  min-width: 0 !important;
-  margin-top: 10px !important;
-  margin-left: 2px !important;
-  cursor: pointer;
-  color: var(--primary-color);
-}
-
-#back-button {
-  display: flex;
-  align-items: center;
-  font-size: 17px;
-}
-
-#back-button span {
-  margin-left: 2px;
-}
-
 /* Button wrapper */
-
-#buttons .button-wrapper:first-of-type {
-  margin-right: 12px;
-}
-
 .button-wrapper {
   display: flex;
   align-items: flex-start;
   justify-content: center;
 }
-
-.button-wrapper>.detail-text {
-  margin-top: 32px !important;
-  font-size: 8px;
-  opacity: 0.5;
-}
-
 .button-wrapper>.detail-text {
   position: absolute;
-  margin-top: 5px;
-  text-align: center;
-  font-size: 8px;
-  opacity: 0.5;
   width: 76px;
+  margin-top: 32px !important;
+  font-size: 8px;
+  text-align: center;
+  opacity: 0.5;
 }
-
-/* Section */
-
-.section-container { margin-top: 0 !important; }
-#main { margin-top: -8px; }
-
-.container {
-  height: 110px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+/* First button (install) */
+#buttons .button-wrapper:first-of-type {
+  margin-right: 12px;
 }
 
 /* Text */
@@ -143,18 +127,6 @@
   opacity: 100% !important;
 }
 
-/* Preview section */
-#preview .text-container:first-of-type {
-  margin-top: 18px;
-}
-
-/* Sections */
-.section .text-container:first-of-type {
-  border-top: 0.5px solid var(--cell-separator);
-  padding-top: 8px;
-  margin-top: 24px;
-}
-
 /* Description & release notes */
 .section .text-container .custom.text {
   font-size: 15px;
@@ -162,10 +134,27 @@
   opacity: 1;
 }
 
-/* More button wrapper */
-.section .text-container .wrapper {
-  position: relative;
-  width: 100%;
+/* Sections */
+
+/* Preview section */
+#preview .text-container:first-of-type {
+  margin-top: 18px;
+}
+
+/* All sections */
+.section .text-container:first-of-type {
+  border-top: 0.5px solid var(--cell-separator);
+  padding-top: 8px;
+  margin-top: 24px;
+}
+
+.section-container { margin-top: 0 !important; }
+#main { margin-top: -8px; }
+#main-content {
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Cells */
@@ -211,21 +200,23 @@
 /* Hide scrollbar */
 /* https: //www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
 /* Chrome, Safari and Opera */
-#preview-images::-webkit-scrollbar {
+/* #preview-images::-webkit-scrollbar {
   display: none;
-}
+} */
 /* IE, Edge and Firefox */
-#preview-images {
+/* #preview-images {
   -ms-overflow-style: none;
   scrollbar-width: none;
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   .text-container .wrapper #more {
     background: linear-gradient(to right, transparent, var(--table-background-dark) 35%);
   }
 
-  .link.cell .cell-text {
+  .link.cell .cell-text,
+  #back button,
+  #more button {
     color: var(--primary-color-dark);
   }
 
