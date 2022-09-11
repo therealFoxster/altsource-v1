@@ -198,17 +198,21 @@
   max-width: 350px;
 }
 
-/* Hide scrollbar */
-/* https: //www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
-/* Chrome, Safari and Opera */
-/* #preview-images::-webkit-scrollbar {
-  display: none;
-} */
-/* IE, Edge and Firefox */
-/* #preview-images {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-} */
+/* Touch screen */
+@media (hover: none) {
+  /* Hide scrollbar */
+  /* https: //www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+  /* Chrome, Safari and Opera */
+  #preview-images::-webkit-scrollbar {
+    display: none;
+  }
+  /* IE, Edge and Firefox */
+  #preview-images {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
 
 @media (prefers-color-scheme: dark) {
   .text-container .wrapper #more {
