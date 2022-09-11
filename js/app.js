@@ -15,19 +15,23 @@ $.getJSON("apps.json", function (json) {
   $("#app-icon").attr('src', app.iconURL);
   $("#app-name").text(app.name);
   $("#subtitle").text(app.subtitle);
-  $("#install").on('click', function(event) {
+  $("#install, #download").on('click', function(event) {
     event.preventDefault();
     
-    const message = `To receive future app updates for \"${app.name}\", you must add the source to AltStore and install the app from there. You will not receive app updates if you install it from here. \n\nWould you like to continue?`;
+    const message = `IMPORTANT\n\nTo receive future app updates for \"${app.name}\", you must add the source to AltStore (see top banner) and get the app from there. You will not receive future app updates if you ${event.currentTarget.id == "install" ? "install" : "get"} it from here.\n\nWould you like to continue?`;
 
     if (confirm(message))
       if (confirm("Are you sure?"))
         if (confirm("Are you really sure?"))
           if (confirm("Like really, really?"))
-            if (confirm(`Fine, have it your way. Keep in mind you won't be able to receive future updates for this app through AltStore.`))
-              window.location.replace(`altstore://install?url=${app.downloadURL}`);
+            if (confirm(`Fine, have it your way. Keep in mind you won't be able to receive future updates for this app through AltStore.`)) {
+              if (event.currentTarget.id == "install")
+                window.location.replace(`altstore://install?url=${app.downloadURL}`);
+              else window.location.replace(app.downloadURL);
+            }
   });
   $("#download").attr('href', app.downloadURL);
+  
   $("#size").text(`${parseFloat(parseFloat(app.size) / 1024 / 1024).toFixed(1)} MB`);
   $("#version").text(app.version);
   
