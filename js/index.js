@@ -5,11 +5,11 @@ $.getJSON("apps.json", function (json) {
     return (new Date(b.versionDate)).getTime() - (new Date(a.versionDate)).getTime();
   });
 
-  const today = new Date(),
-        daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+  const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
         months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
   // Today
+  const today = new Date();
   const dayOfWeek = daysOfWeek[today.getDay()],
         month = months[today.getMonth()],
         date = today.getDate();
@@ -27,7 +27,7 @@ $.getJSON("apps.json", function (json) {
     console.log(dateStr);
 
     let html = `
-    <div class="cell custom" onclick="window.location='app.html?id=${app.id}';">
+    <div class="cell custom">
       <div class="cell-icon" id="${app.id}">
         <img src="${app.iconURL}" alt="${app.id}_icon" class="app icon">
       </div>
@@ -36,10 +36,9 @@ $.getJSON("apps.json", function (json) {
           <p class="cell-text">${app.name}</p>
           <p class="cell-detail-text">${app.subtitle}</p>
         </div>
-        <div class="button">
-          <a href="altstore://install?url=${app.downloadURL}"><button>install</button></a>
-          <p class="detail-text">Requires AltStore</p>
-        </div>
+        <a href="app.html?id=${app.id}">
+          <button class="uibutton">View</button>
+        </a>
       </div>
     </div>`;
 

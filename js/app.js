@@ -1,6 +1,6 @@
 const urlSearchParams = new URLSearchParams(window.location.search);
 const id = urlSearchParams.get('id');
-const moreButton = `<a class="more" onclick="revealTruncatedText(this);"><button>more</button></a>`;
+const moreButton = `<a id="more" onclick="revealTruncatedText(this);"><button>more</button></a>`;
 
 $.getJSON("apps.json", function (json) {
   const apps = json.apps.filter(app => app.id === id);

@@ -3,123 +3,6 @@
   --altstore-color-custom: rgba(1, 128, 128, 0.8);
 }
 
-/* Banner */
-
-.banner.cell {
-  padding-bottom: 1px;
-  background: var(--altstore-color-custom) !important;
-  /* background: rgba(10, 110, 110, 1) !important; */
-  /* background-color: rgba(1, 128, 132, 0.75) !important; */
-  border-bottom: 0.5px solid var(--cell-separator);
-}
-
-.banner.cell button {
-  background-color: white; color: var(--altstore-color) !important;
-  /* background-color: var(--altstore-color); color: white !important; */
-  /* background-color: var(--primary-color); color: white !important; */
-}
-
-.banner.cell .cell-labels p {
-  color: white;
-  margin-right: 8px !important;
-}
-
-.banner.cell .cell-text {
-  padding-bottom: 0 !important;
-  font-weight: 600;
-  font-size: 12.95px !important;
-}
-
-.banner.cell .cell-detail-text {
-  padding-top: 0 !important;
-  font-weight: 400;
-  font-size: 11px !important;
-  line-height: 12px !important;
-  opacity: 0.7 !important; 
-}
-
-.banner.cell .cell-inner {
-  border: none !important;
-  margin-left: 10px !important;
-}
-
-/* Button */
-
-button {
-  border: none;
-  text-transform: uppercase;
-  font-size: 15px;
-  color: var(--primary-color);
-  font-weight: 700;
-  padding: 5px 12px;
-  min-width: 76px;
-  border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.075);
-}
-
-button:active {
-  opacity: 0.8;
-}
-
-.get>.detail-text {
-  position: absolute;
-  margin-top: 5px;
-  text-align: center;
-  font-size: 8px;
-  opacity: 0.5;
-  width: 76px;
-}
-
-.button {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.button>.detail-text {
-  margin-top: 32px !important;
-  font-size: 8px;
-  opacity: 0.5;
-  position: absolute;
-  margin-top: 5px;
-  text-align: center;
-  font-size: 8px;
-  opacity: 0.5;
-}
-
-.button button {
-  min-width: 76px !important;
-}
-
-/* Section */
-
-.custom.section-container {
-  margin-top: 8px !important;
-}
-
-#uitableview .custom.section-header {
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 12px;
-  padding-bottom: 0;
-  
-  margin: 0 14px;
-
-  font-size: 24px !important;
-  font-weight: 650 !important;
-  text-transform: capitalize !important;
-  opacity: 100% !important;
-
-  border-top: 0.5px solid var(--cell-separator);
-}
-
-#uitableview .custom.section-footer {
-  padding-top: 2px;
-  font-size: 14px !important;
-}
-
-/* Cell */
-
 #uitableview .custom.cell .cell-labels {
   margin-right: 6px !important;
 }
@@ -132,24 +15,14 @@ button:active {
 #uitableview .custom.cell:first-of-type .cell-inner {
   border-top: none !important;
 }
+
 #uitableview .custom.cell:last-of-type .cell-inner {
   border-bottom: none !important;
 }
 
-#uitableview .custom.cell .cell-detail-text {
-  font-size: 12px !important;
-}
-
 @media (prefers-color-scheme: dark) {
-  button {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: var(--primary-color-dark);
-  }
-
   #uitableview .custom.section-header,
-  #uitableview .custom.section-container.app.icon,
-  #uitableview .text-container,
-  #uitableview .banner.cell {
+  #uitableview .text-container {
     border-color: var(--cell-separator-dark);
   }
 

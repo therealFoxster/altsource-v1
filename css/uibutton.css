@@ -1,0 +1,30 @@
+.uibutton {
+  --color-separator: rgba(0, 0, 0, 0.15);
+  --color-separator-dark: rgba(255, 255, 255, 0.15);
+  --color-primary: rgba(0, 122, 254, 255);
+  --color-primary-dark: rgba(11, 132, 254, 255);
+}
+
+button.uibutton {
+  min-width: 76px;
+  padding: 5px 12px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 20px;
+  color: var(--color-primary);
+  background-color: rgba(0, 0, 0, 0.075);
+  cursor: pointer;
+}
+
+button.uibutton:active {
+  opacity: 0.8;
+}
+
+@media (prefers-color-scheme: dark) {
+  button.uibutton {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--color-primary-dark);
+  }
+}
