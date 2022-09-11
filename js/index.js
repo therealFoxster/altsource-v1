@@ -16,16 +16,6 @@ $.getJSON("apps.json", function (json) {
   $("#today").text(`${dayOfWeek}, ${month} ${date}`)
 
   json.apps.forEach(app => {
-    const versionDate = new Date(app.versionDate),
-          timeDifference = Math.abs(today - versionDate),
-          daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24)); 
-    console.log(daysDifference);
-    
-    const month = versionDate.toUTCString().split(" ")[2], // dd (e.g. Jan)
-          date = versionDate.getDate(), // D (e.g., 3)
-          dateStr = `${month} ${date}, ${versionDate.getFullYear()}`; // YYYY (e.g., 2022)
-    console.log(dateStr);
-
     let html = `
     <div class="cell custom">
       <div class="cell-icon" id="${app.id}">

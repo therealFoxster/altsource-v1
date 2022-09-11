@@ -35,11 +35,6 @@ $.getJSON("apps.json", function (json) {
   }
 
   app.screenshotURLs.forEach((screenshot, index) => {
-    const carouselItem = `
-    <div class="carousel-item ${index == 0 ? "active" : ""}">
-      <img src="${screenshot}" class="d-block w-100" alt="...">
-    </div>`;
-    // $(".carousel-inner").append(carouselItem);
     const image = `<img src="${screenshot}" alt="screenshot-${index + 1}">`;
     $("#preview-images").append(image);
   });
@@ -50,21 +45,6 @@ $.getJSON("apps.json", function (json) {
   if (previewText.scrollHeight > previewText.clientHeight) {
     previewText.insertAdjacentHTML('afterend', moreButton);
   }
-
-  const size = `
-  <a class="link cell" href="" target="_blank">
-    <div class="cell-inner">
-      <div class="cell-labels">
-        <p class="cell-text">Size</p>
-        </div>
-        <div class="grey cell-accessory-icon">
-        <p class="cell-detail-text">
-          12 MB
-        </p>
-      </div>
-    </div>
-  </a>`;
-  // $("#credits").append(size);
 
   app.information.forEach(information => {
     const html = `
@@ -95,4 +75,8 @@ function revealTruncatedText(object) {
             'line-clamp': 'none'
   });
   object.parentNode.removeChild(object); // Remove "more" button
+}
+
+function install() {
+
 }
