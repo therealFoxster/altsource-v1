@@ -1,12 +1,20 @@
 # Foxster's AltStore Source
 AltStore source with tweak-injected apps and possibly more
 
+Requires [AltStore beta](https://faq.altstore.io/patreon/beta-features/).
+
 https://therealFoxster.github.io/altsource/
 
-## Pre-requisite
-* [AltStore beta](https://faq.altstore.io/patreon/beta-features/)
+## Screenshots
+<img src="img/screenshots/AltSource/IMG_1918.jpeg" alt="screenshot1" width="300"/>
+<img src="img/screenshots/AltSource/IMG_1919.jpeg" alt="screenshot2" width="300"/>
+<img src="img/screenshots/AltSource/IMG_1920.jpeg" alt="screenshot3" width="300"/>
+<img src="img/screenshots/AltSource/IMG_1921.jpeg" alt="screenshot4" width="300"/>
+<img src="img/screenshots/AltSource/IMG_1923.jpeg" alt="screenshot5" width="300"/>
+<img src="img/screenshots/AltSource/IMG_1924.jpeg" alt="screenshot6" width="300"/>
 
-## Questions & Answers
+
+## Q&A
 
 **Why add a source when I can just download and sideload an .ipa file?**
 
@@ -19,11 +27,6 @@ All of the tweaked apps available on the source were made with a decrypted .ipa 
 **How often are these apps updated?**
 
 I don't think I'll be able to dedicate a lot of time into this project so apps will only be updated when needed. Feel free to [let me know](#contact-me) if something breaks down the road!
-
-## Screenshots
-<img src="img/screenshots/AltSource/IMG_1515.PNG" alt="screenshot1" width="300"/>
-<img src="img/screenshots/AltSource/IMG_1512.PNG" alt="screenshot2" width="300"/>
-<img src="img/screenshots/AltSource/IMG_1513.PNG" alt="screenshot3" width="300"/>
 
 ## Credits
 * [Riley Testut](https://github.com/rileytestut) - AltStore and AltStore beta
