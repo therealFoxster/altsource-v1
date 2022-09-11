@@ -224,4 +224,8 @@
   #install button {
     background: var(--primary-color-dark);
   }
+
+  #preview-images img  {
+    border-color: var(--cell-separator-dark);
+  }
 }
