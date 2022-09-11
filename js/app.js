@@ -24,7 +24,7 @@ $.getJSON("apps.json", function (json) {
       if (confirm("Are you sure?"))
         if (confirm("Are you really sure?"))
           if (confirm("Like really, really?"))
-            if (confirm(`Fine, have it your way. Keep in mind you won't be receiving app updates for this app in AltStore.`))
+            if (confirm(`Fine, have it your way. Keep in mind you won't be able to receive future updates for this app through AltStore.`))
               window.location.replace(`altstore://install?url=${app.downloadURL}`);
   });
   $("#download").attr('href', app.downloadURL);
