@@ -17,6 +17,7 @@ $.getJSON("apps.json", function (json) {
   $("#subtitle").text(app.subtitle);
   $("#install").attr('href', `altstore://install?url=${app.downloadURL}`);
   $("#download").attr('href', app.downloadURL);
+  $("#size").text(`${parseFloat(parseFloat(app.size) / 1024 / 1024).toFixed(1)} MB`);
   $("#version").text(app.version);
   
   const versionDate = new Date(app.versionDate),
@@ -43,34 +44,49 @@ $.getJSON("apps.json", function (json) {
     $("#preview-images").append(image);
   });
 
-  $("#preview-text").text(app.localizedDescription);
+  $("#preview-text").html(app.localizedDescription.replaceAll("\n", "<br>"));
 
   const previewText = document.getElementById("preview-text");
   if (previewText.scrollHeight > previewText.clientHeight) {
     previewText.insertAdjacentHTML('afterend', moreButton);
   }
 
-  app.credits.forEach(credit => {
-    const html = `
-    <a class="link cell" href="${credit.url}" target="_blank">
-      <div class="cell-inner">
-        <div class="cell-labels">
-          <p class="cell-text">${credit.author}</p>
-          <p class="cell-detail-text">${credit.items ?? ""}</p>
+  const size = `
+  <a class="link cell" href="" target="_blank">
+    <div class="cell-inner">
+      <div class="cell-labels">
+        <p class="cell-text">Size</p>
         </div>
         <div class="grey cell-accessory-icon">
-          <i class="bi bi-chevron-right"></i>
+        <p class="cell-detail-text">
+          12 MB
+        </p>
+      </div>
+    </div>
+  </a>`;
+  // $("#credits").append(size);
+
+  app.information.forEach(information => {
+    const html = `
+    <a class="link cell" href="${information.url}" target="_blank">
+      <div class="cell-inner">
+        <div class="cell-labels">
+          <p class="cell-text">${information.item}</p>
+          </div>
+          <div class="grey cell-accessory-icon">
+          <p class="cell-detail-text">
+            ${information.authors ?? ""}
+            <i class="bi bi-chevron-right" style="font-size: 12px; -webkit-text-stroke: 1px; color: unset; opacity: 0.5;"></i>
+          </p>
         </div>
       </div>
     </a>`;
 
-    $("#credits").append(html);
+    $("#information").append(html);
   });
 });
 
 function revealTruncatedText(object) {
-  console.log("reveal");
-  console.log(object.parentNode.getElementsByTagName('p')[0].id)
   const node_id = object.parentNode.getElementsByTagName('p')[0].id;
   $(`#${node_id}`).css({
     'display': 'block',

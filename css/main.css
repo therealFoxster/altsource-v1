@@ -3,6 +3,20 @@
   --altstore-color-custom: rgba(1, 128, 128, 0.8);
 }
 
+#uitableview .uibanner {
+  background-color: var(--altstore-color-custom) !important;
+  color: white;
+}
+
+#uitableview .uibanner .detail-text {
+  opacity: 0.7;
+}
+
+#uitableview .uibanner button {
+  background-color: white !important;
+  color: var(--altstore-color);
+}
+
 #uitableview .custom.cell .cell-labels {
   margin-right: 6px !important;
 }
