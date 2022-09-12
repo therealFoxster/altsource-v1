@@ -54,7 +54,26 @@ $.getJSON("apps.json", function (json) {
     $("#preview-images").append(image);
   });
 
-  $("#preview-text").html(app.localizedDescription.replaceAll("\n", "<br>"));
+  $("#preview-text").html(app.localizedDescription.split("\n   \n")[0].replaceAll("\n", "<br>"));
+
+  if (app.localizedDescription.split("\n   \n")[1] != null) {
+    const workaroundText = app.localizedDescription.split("\n   \n")[1];
+    console.log(workaroundText)
+    const workaroundHTML = `
+    <div class="section-container">
+      <div class="section" id="workaround">
+        <div class="text-container">
+          <p class="text header">${workaroundText.split("? ")[0]}?</p>
+        </div>
+        <div class="text-container">
+          <div class="wrapper">
+            <p class="text custom">${workaroundText.split("? ")[1].split(": ")[0]}: <a href="${workaroundText.split(": ")[1]}">${workaroundText.split(": ")[1]}</a></p>
+          </div>
+        </div>
+      </div>
+    </div>`;
+    $(".section-container:last-of-type").prepend(workaroundHTML);
+  }
 
   const previewText = document.getElementById("preview-text");
   if (previewText.scrollHeight > previewText.clientHeight) {

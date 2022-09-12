@@ -133,6 +133,11 @@
   margin-top: 10px !important;
   opacity: 1;
 }
+.section .text-container .custom.text a {
+  color: var(--primary-color);
+  text-decoration: none;
+  word-wrap: break-word;
+}
 
 /* Sections */
 
@@ -219,6 +224,7 @@
     background: linear-gradient(to right, transparent, var(--table-background-dark) 35%);
   }
 
+  .section .text-container .custom.text a,
   .link.cell .cell-text,
   #back button,
   #more button {
