@@ -93,7 +93,7 @@
                 }
             ],
             "downloadURL": "https://drive.google.com/uc?export=download&id=1_4l-rmAkIb738V2xxJz0oeLq9fuL7wKq&confirm=t",
-            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!\n   \nCan't sign in? See this workaround: https://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205\n",
+            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!\n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205\n",
             "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/YouTube.png",
             "tintColor": "ff0000",
             "size": 96316715,

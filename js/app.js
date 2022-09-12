@@ -67,7 +67,7 @@ $.getJSON("apps.json", function (json) {
         </div>
         <div class="text-container">
           <div class="wrapper">
-            <p class="text custom">${workaroundText.split("? ")[1].split(": ")[0]}: <a href="${workaroundText.split(": ")[1]}">${workaroundText.split(": ")[1]}</a></p>
+            <p class="text custom">${workaroundText.split("? ")[1].split(": ")[0]}: <a href="${workaroundText.split(": \n")[1]}">${workaroundText.split(": \n")[1]}</a></p>
           </div>
         </div>
       </div>
