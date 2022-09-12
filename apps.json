@@ -52,9 +52,9 @@
             "bundleIdentifier": "com.google.ios.youtube",
             "developerName": "Foxster",
             "subtitle": "Ad-free, background playback, download videos and more",
-            "version": "17.32.2",
-            "versionDate": "2022-09-03T12:00:00-00:00",
-            "versionDescription": "• YouTube v17.32.2 (Aug 14, 2022)\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.9 \n• com.ps.ytsystemappearance v1.0.0 \n• me.alfhaily.cercube v5.3.11 \n• weeb.lillie.youtubedislikesreturn v1.6.6 \n",
+            "version": "17.36.3",
+            "versionDate": "2022-09-11T20:57:43-07:00",
+            "versionDescription": "• YouTube v17.36.3 (Sep 11, 2022)\n• com.michaelmelita1.ytsideloadfix v0.0.1 \n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.9 \n• com.ps.ytsystemappearance v1.0.0 \n• me.alfhaily.cercube v5.3.11 \n• weeb.lillie.youtubedislikesreturn v1.6.8 \n",
             "information": [
                 {
                     "item": "YouTube",
@@ -85,10 +85,15 @@
                     "item": "Cercube",
                     "authors": "Majd Alfhaily",
                     "url": "https://apt.alfhaily.me/depictions/cercube"
+                },
+                {
+                    "item": "YTSideloadFix",
+                    "authors": "Michael Melita, BandarHelal",
+                    "url": "https://github.com/michaelmelita1/YTSideloadFix"
                 }
             ],
-            "downloadURL": "https://drive.google.com/uc?export=download&id=11euMqMaJt-FFxUFCEZK9x4voNM7ifLuJ&confirm=t",
-            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!\n",
+            "downloadURL": "https://drive.google.com/uc?export=download&id=1_4l-rmAkIb738V2xxJz0oeLq9fuL7wKq&confirm=t",
+            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!\n   \nCan't sign in? See this workaround: https://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205\n",
             "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/YouTube.png",
             "tintColor": "ff0000",
             "size": 96316715,
