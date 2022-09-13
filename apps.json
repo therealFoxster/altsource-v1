@@ -62,6 +62,11 @@
                     "url": "https://www.youtube.com"
                 },
                 {
+                    "item": "YTSideloadFix",
+                    "authors": "Michael Melita, BandarHelal",
+                    "url": "https://github.com/michaelmelita1/YTSideloadFix"
+                },
+                {
                     "item": "NoYTPremium",
                     "authors": "PoomSmart",
                     "url": "https://poomsmart.github.io/repo/depictions/noytpremium.html"
@@ -85,11 +90,6 @@
                     "item": "Cercube",
                     "authors": "Majd Alfhaily",
                     "url": "https://apt.alfhaily.me/depictions/cercube"
-                },
-                {
-                    "item": "YTSideloadFix",
-                    "authors": "Michael Melita, BandarHelal",
-                    "url": "https://github.com/michaelmelita1/YTSideloadFix"
                 }
             ],
             "downloadURL": "https://drive.google.com/uc?export=download&id=1_4l-rmAkIb738V2xxJz0oeLq9fuL7wKq&confirm=t",
