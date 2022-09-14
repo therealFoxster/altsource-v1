@@ -3,50 +3,6 @@
     "identifier": "me.foxster.AltSource",
     "apps": [
         {
-            "id": "spotify",
-            "name": "Spotify",
-            "bundleIdentifier": "com.spotify.client",
-            "developerName": "Foxster",
-            "subtitle": "Ad-free, unlimited skips and more",
-            "version": "8.6.42",
-            "versionDate": "2022-09-03T12:00:00-00:00",
-            "versionDescription": "• Spotify v8.6.42 (Jul 9, 2021)\n• com.julioverne.spotilife v1.8 \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52\n\nKnown issues\n• Log in with Google and Apple is broken\n• App won't deactivate with AltStore",
-            "information": [
-                {
-                    "item": "Spotify",
-                    "authors": "Spotify AB",
-                    "url": "https://www.spotify.com"
-                },
-                {
-                    "item": "Spotilife",
-                    "authors": "julioverne",
-                    "url": "https://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife"
-                },
-                {
-                    "item": "Sposify",
-                    "authors": "aesthyrica",
-                    "url": "https://repo.dynastic.co/package/com.spos"
-                },
-                {
-                    "item": "Sposify Fix",
-                    "authors": "level3tjg",
-                    "url": "https://level3tjg.me/repo/depictions?p=com.level3tjg.sposifyfix"
-                }
-            ],
-            "downloadURL": "https://drive.google.com/uc?export=download&id=1VgAmuJ-ukft40t0FjKk89UYn6BbguQtu&confirm=t",
-            "localizedDescription": "This tweaked version of Spotify is completely ad-free and contains various customization features (thanks to @atebitsy/aesthyrica).",
-            "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/Spotify.png",
-            "tintColor": "1db954",
-            "size": 50512487,
-            "screenshotURLs": [
-                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2841.PNG?raw=true",
-                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2843.PNG?raw=true",
-                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2845.PNG?raw=true",
-                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2846.PNG?raw=true",
-                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2847.PNG?raw=true"
-            ]
-        },
-        {
             "id": "youtube",
             "name": "YouTube",
             "bundleIdentifier": "com.google.ios.youtube",
@@ -102,6 +58,50 @@
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2831.PNG?raw=true",
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2832.PNG?raw=true",
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2833.PNG?raw=true"
+            ]
+        },
+        {
+            "id": "spotify",
+            "name": "Spotify",
+            "bundleIdentifier": "com.spotify.client",
+            "developerName": "Foxster",
+            "subtitle": "Ad-free, unlimited skips and more",
+            "version": "8.6.42",
+            "versionDate": "2022-09-03T12:00:00-00:00",
+            "versionDescription": "• Spotify v8.6.42 (Jul 9, 2021)\n• com.julioverne.spotilife v1.8 \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52\n\nKnown issues\n• Log in with Google and Apple is broken\n• App won't deactivate with AltStore",
+            "information": [
+                {
+                    "item": "Spotify",
+                    "authors": "Spotify AB",
+                    "url": "https://www.spotify.com"
+                },
+                {
+                    "item": "Spotilife",
+                    "authors": "julioverne",
+                    "url": "https://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife"
+                },
+                {
+                    "item": "Sposify",
+                    "authors": "aesthyrica",
+                    "url": "https://repo.dynastic.co/package/com.spos"
+                },
+                {
+                    "item": "Sposify Fix",
+                    "authors": "level3tjg",
+                    "url": "https://level3tjg.me/repo/depictions?p=com.level3tjg.sposifyfix"
+                }
+            ],
+            "downloadURL": "https://drive.google.com/uc?export=download&id=1VgAmuJ-ukft40t0FjKk89UYn6BbguQtu&confirm=t",
+            "localizedDescription": "This tweaked version of Spotify is completely ad-free and contains various customization features (thanks to @atebitsy/aesthyrica).",
+            "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/Spotify.png",
+            "tintColor": "1db954",
+            "size": 50512487,
+            "screenshotURLs": [
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2841.PNG?raw=true",
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2843.PNG?raw=true",
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2845.PNG?raw=true",
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2846.PNG?raw=true",
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2847.PNG?raw=true"
             ]
         }
     ]
