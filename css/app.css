@@ -39,12 +39,12 @@
   background: unset;
   color: var(--primary-color);
   cursor: pointer;
+  margin-top: 10px !important;
 }
 
 /* Back button */
 #back-button span { margin-left: 2px; }
 #back-button {
-  margin-top: 10px !important;
   display: flex;
   align-items: center;
   font-size: 17px;
