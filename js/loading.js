@@ -1,10 +1,17 @@
-$("#content").hide();
+let allImagesLoaded = false;
 
-$("body").prepend(`
-<div id="loading">
-  <img src="img/loading.gif" alt="loading" id="loading-indicator">
-  <p>Loading</p>
-</div>`);
+$("#content").hide(); // Hide content while loading
+
+// Wait a second before showing loading screen
+setTimeout(() => {
+  if (!allImagesLoaded) {
+    $("body").prepend(`
+    <div id="loading">
+      <img src="img/loading.gif" alt="loading" id="loading-indicator">
+      <p>Loading</p>
+    </div>`);
+  }
+}, 1000);
 
 function waitForAllImagesToLoad () {
   const totalImages = $("img").length;
@@ -22,8 +29,11 @@ function waitForAllImagesToLoad () {
 
   function imageLoaded() {
     if (++imagesLoaded == totalImages) { // All images loaded
+      allImagesLoaded = true;
+      $("#loading").hide();
       $("#loading").remove();
       $("#content").show();
+      $("#content").addClass("fade-in");
     }
   }
 }
