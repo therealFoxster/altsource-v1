@@ -3,7 +3,7 @@ AltStore source with tweak-injected apps and possibly more
 
 Requires [AltStore beta](https://faq.altstore.io/patreon/beta-features/).
 
-https://therealFoxster.github.io/altsource/
+https://therealfoxster.github.io/altsource/
 
 ## Screenshots
 ![screenshot-1](img/screenshots/AltSource/light/IMG_1998.PNG#gh-light-mode-only)
