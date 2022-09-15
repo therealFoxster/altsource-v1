@@ -187,6 +187,11 @@
   padding: 10px 0 !important;
 }
 
+/* No border for last information cell */
+#information .link.cell:last-of-type .cell-inner {
+  border: none !important;
+}
+
 /* Preview images */
 
 #preview-images {
