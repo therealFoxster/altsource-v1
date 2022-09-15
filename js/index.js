@@ -34,4 +34,7 @@ $.getJSON("apps.json", function (json) {
 
     $("#tweaked-apps").append(html);
   });
+
+  // Wait for all images to load before making page visible
+  waitForAllImagesToLoad();
 });

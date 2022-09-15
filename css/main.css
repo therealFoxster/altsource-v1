@@ -44,3 +44,24 @@
     border-color: var(--icon-border-dark);
   }
 }
+
+#loading {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+#loading p {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#loading-indicator {
+  width: 24px;
+  margin-bottom: 4px;
+}

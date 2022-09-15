@@ -18,19 +18,23 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
 <body id="uitableview" class="no-cell-background">
-  <script src="js/uibanner.js"></script>
-  <!-- Main content -->
-  <p id="today">Date</p>
-  <h1 id="title">Foxster's AltStore Source</h1>
-  <div class="custom section-container">
-    <div class="section" id="tweaked-apps">
-      <p class="custom section-header">Tweaked apps</p>
-      <p class="custom section-footer">iOS apps with jailbreak tweaks injected</p>
-      <!-- Apps -->
+  <div id="content">
+    <!-- Main content -->
+    <p id="today">Date</p>
+    <h1 id="title">Foxster's AltStore Source</h1>
+    <div class="custom section-container">
+      <div class="section" id="tweaked-apps">
+        <p class="custom section-header">Tweaked apps</p>
+        <p class="custom section-footer">iOS apps with jailbreak tweaks injected</p>
+        <!-- Apps -->
+      </div>
+      <!-- <p class="section-footer">Tip: Select view to see more information. You can also download the .ipa file there too.</p> -->
     </div>
-    <!-- <p class="section-footer">Tip: Select view to see more information. You can also download the .ipa file there too.</p> -->
+
   </div>
   <!-- Scripts -->
+  <script src="js/uiloading.js"></script>
+  <script src="js/uibanner.js"></script>
   <script src="js/index.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-$("body").prepend(`
+$("#content").prepend(`
 <!-- Add to Altstore banner -->
 <div class="uibanner">
   <img src="img/icons/AltStore.jpg" alt="altstore-icon" class="icon">

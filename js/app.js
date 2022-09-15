@@ -98,6 +98,9 @@ $.getJSON("apps.json", function (json) {
 
     $("#information").append(html);
   });
+
+  // Wait for all images to load before making page visible
+  waitForAllImagesToLoad();
 });
 
 function revealTruncatedText(object) {
