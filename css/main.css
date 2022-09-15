@@ -3,6 +3,17 @@
   --altstore-color-custom: rgba(1, 128, 128, 0.8);
 }
 
+body {
+  margin: 0 auto;
+  max-width: 414px;
+}
+
+@media screen and (max-device-width: 767px) {
+  body {
+    width: 100%
+  }
+}
+
 #uitableview .uibanner {
   background-color: var(--altstore-color-custom) !important;
   color: white;
@@ -46,9 +57,7 @@
 }
 
 #loading {
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  height: 94vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
