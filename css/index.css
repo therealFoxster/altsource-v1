@@ -11,6 +11,33 @@
   padding-top: 6px !important;
 }
 
+#note {
+  margin: 20px 14px 24px 14px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+#note .header {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#note .description {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+#note i {
+  font-size: 36px;
+  -webkit-text-stroke: 0.1px;
+  color: rgba(255, 145, 0, 1);
+}
+
 #uitableview .custom.section-container {
   margin-top: 8px !important;
 }
@@ -41,4 +68,10 @@
   max-width: 57px;
   border-radius: 12px;
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  #note {
+    background-color: var(--cell-background-dark);
+  }
 }
