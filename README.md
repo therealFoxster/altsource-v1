@@ -6,13 +6,18 @@ Requires [AltStore beta](https://faq.altstore.io/patreon/beta-features/).
 https://therealFoxster.github.io/altsource/
 
 ## Screenshots
-<img src="img/screenshots/AltSource/IMG_1918.jpeg" alt="screenshot1" width="300"/>
-<img src="img/screenshots/AltSource/IMG_1919.jpeg" alt="screenshot2" width="300"/>
-<img src="img/screenshots/AltSource/IMG_1920.jpeg" alt="screenshot3" width="300"/>
-<img src="img/screenshots/AltSource/IMG_1921.jpeg" alt="screenshot4" width="300"/>
-<img src="img/screenshots/AltSource/IMG_1923.jpeg" alt="screenshot5" width="300"/>
-<img src="img/screenshots/AltSource/IMG_1924.jpeg" alt="screenshot6" width="300"/>
-
+![screenshot-1](img/screenshots/AltSource/light/IMG_1998.PNG#gh-light-mode-only)
+![screenshot-1](img/screenshots/AltSource/light/IMG_2001.PNG#gh-light-mode-only)
+![screenshot-1](img/screenshots/AltSource/light/IMG_2003.PNG#gh-light-mode-only)
+![screenshot-1](img/screenshots/AltSource/light/IMG_2005.PNG#gh-light-mode-only)
+![screenshot-1](img/screenshots/AltSource/light/IMG_2007.PNG#gh-light-mode-only)
+![screenshot-1](img/screenshots/AltSource/light/IMG_2009.PNG#gh-light-mode-only)
+![screenshot-1](img/screenshots/AltSource/dark/IMG_1999.PNG#gh-dark-mode-only)
+![screenshot-1](img/screenshots/AltSource/dark/IMG_2002.PNG#gh-dark-mode-only)
+![screenshot-1](img/screenshots/AltSource/dark/IMG_2004.PNG#gh-dark-mode-only)
+![screenshot-1](img/screenshots/AltSource/dark/IMG_2006.PNG#gh-dark-mode-only)
+![screenshot-1](img/screenshots/AltSource/dark/IMG_2008.PNG#gh-dark-mode-only)
+![screenshot-1](img/screenshots/AltSource/dark/IMG_2010.PNG#gh-dark-mode-only)
 
 ## Q&A
 
