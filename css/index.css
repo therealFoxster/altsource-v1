@@ -70,6 +70,10 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.link.cell .cell-text {
+  font-size: 20px !important;
+}
+
 @media (prefers-color-scheme: dark) {
   #note {
     background-color: var(--cell-background-dark);

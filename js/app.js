@@ -7,7 +7,7 @@ if (!urlSearchParams.has('id')) {
 const id = urlSearchParams.get('id');
 const moreButton = `<a id="more" onclick="revealTruncatedText(this);"><button>more</button></a>`;
 
-$.getJSON("apps.json", function (json) {
+$.getJSON("data/apps.json", function (json) {
   const apps = json.apps.filter(app => app.id === id);
   const app = apps[0];
   

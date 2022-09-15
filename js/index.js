@@ -1,4 +1,4 @@
-$.getJSON("apps.json", function (json) {
+$.getJSON("data/apps.json", function (json) {
   // Sort in descending order of version date
   json.apps.sort((a, b) => {
     // If b < a
@@ -37,4 +37,18 @@ $.getJSON("apps.json", function (json) {
 
   // Wait for all images to load before making page visible
   waitForAllImagesToLoad();
+});
+
+$.getJSON("data/index.json", function (json) {
+  json.data.quick_links.forEach(link => {
+    const html = `
+    <a class="link cell" href="${link.url}" target="_blank">
+      <div class="cell-inner">
+        <div class="cell-labels">
+          <p class="cell-text">${link.title}</p>
+        </div>
+      </div>
+    </a>`;
+    $("#quick-links").append(html);
+  });
 });

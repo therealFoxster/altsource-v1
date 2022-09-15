@@ -167,29 +167,8 @@
   border-top: none !important;
 }
 
-/* Credits */
-
-.link.cell {
-  text-decoration: none;
-  color: unset;
-}
-
 .link.cell .cell-text {
-  color: var(--primary-color);
   font-size: 16px !important;
-}
-
-.link.cell .cell-inner {
-  margin: 0px 18px !important;
-  padding: 24px 0 !important;
-  /* border: none !important; */
-  border-bottom: 0.5px solid;
-  padding: 10px 0 !important;
-}
-
-/* No border for last information cell */
-#information .link.cell:last-of-type .cell-inner {
-  border: none !important;
 }
 
 /* Preview images */

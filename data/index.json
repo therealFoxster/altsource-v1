@@ -1,0 +1,26 @@
+{
+  "data": {
+    "quick_links": [
+      {
+        "title": "How to Install AltStore (macOS)",
+        "url": "https://faq.altstore.io/getting-started/how-to-install-altstore-macos"
+      },
+      {
+        "title": "How to Install AltStore (Windows)",
+        "url": "https://faq.altstore.io/getting-started/how-to-install-altstore-windows"
+      },
+      {
+        "title": "How to Use AltStore",
+        "url": "https://faq.altstore.io/how-to-use-altstore/your-altstore"
+      },
+      {
+        "title": "AltStore Troubleshooting Guide",
+        "url": "https://faq.altstore.io/getting-started/troubleshooting-guide"
+      },
+      {
+        "title": "Source Code",
+        "url": "https://github.com/therealFoxster/altsource"
+      }
+    ]
+  }
+}

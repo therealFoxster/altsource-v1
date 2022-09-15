@@ -12,7 +12,7 @@ $("#content").prepend(`
       Add this source to AltStore to receive app updates (requires AltStore beta)
       </p>
     </div>
-    <a href="altstore://source?url=https://therealFoxster.github.io/altsource/apps.json">
+    <a href="altstore://source?url=https://therealfoxster.github.io/altsource/data/apps.json">
       <button>Add</button>
     </a>
   </div>
