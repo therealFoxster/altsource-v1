@@ -31,10 +31,6 @@ $.getJSON("data/apps.json", function (json) {
   
   const versionDescription = document.getElementById("version-description");
 
-  if (versionDescription.scrollHeight > versionDescription.clientHeight) {
-    versionDescription.insertAdjacentHTML('afterend', moreButton);
-  }
-
   app.screenshotURLs.forEach((screenshot, index) => {
     const image = `<img src="${screenshot}" alt="screenshot-${index + 1}">`;
     $("#preview-images").append(image);
@@ -44,7 +40,6 @@ $.getJSON("data/apps.json", function (json) {
 
   if (app.localizedDescription.split("\n   \n")[1] != null) {
     const workaroundText = app.localizedDescription.split("\n   \n")[1];
-    console.log(workaroundText)
     const workaroundHTML = `
     <div class="section-container">
       <div class="section" id="workaround">
@@ -86,7 +81,11 @@ $.getJSON("data/apps.json", function (json) {
   });
 
   // Wait for all images to load before making page visible
-  waitForAllImagesToLoad();
+  waitForAllImagesToLoad(() => {
+    if (versionDescription.scrollHeight > versionDescription.clientHeight) {
+      versionDescription.insertAdjacentHTML('afterend', moreButton);
+    }
+  });
 });
 
 function revealTruncatedText(object) {

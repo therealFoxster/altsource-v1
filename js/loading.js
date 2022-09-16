@@ -13,7 +13,7 @@ setTimeout(() => {
   }
 }, 1000);
 
-function waitForAllImagesToLoad () {
+function waitForAllImagesToLoad (callback) {
   const totalImages = $("img").length;
   var imagesLoaded = 0;
 
@@ -34,6 +34,10 @@ function waitForAllImagesToLoad () {
       $("#loading").remove();
       $("#content").show();
       $("#content").addClass("fade-in");
+
+      if (callback) {
+        callback();
+      }
     }
   }
 }
