@@ -57,9 +57,6 @@ $.getJSON("data/apps.json", function (json) {
   }
 
   const previewText = document.getElementById("preview-text");
-  if (previewText.scrollHeight > previewText.clientHeight) {
-    previewText.insertAdjacentHTML('afterend', moreButton);
-  }
 
   app.information.forEach(information => {
     const html = `
@@ -82,9 +79,10 @@ $.getJSON("data/apps.json", function (json) {
 
   // Wait for all images to load before making page visible
   waitForAllImagesToLoad(() => {
-    if (versionDescription.scrollHeight > versionDescription.clientHeight) {
+    if (versionDescription.scrollHeight > versionDescription.clientHeight)
       versionDescription.insertAdjacentHTML('afterend', moreButton);
-    }
+    if (previewText.scrollHeight > previewText.clientHeight)
+      previewText.insertAdjacentHTML('afterend', moreButton);
   });
 });
 
