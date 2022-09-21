@@ -8,19 +8,14 @@
             "bundleIdentifier": "com.google.ios.youtube",
             "developerName": "Foxster",
             "subtitle": "Ad-free, background playback, download videos and more",
-            "version": "17.36.3.2",
-            "versionDate": "2022-09-20T21:22:43-07:00",
-            "versionDescription": "Tweaks\n• com.ps.youpip v1.7.10 \n• me.foxster.donteatmycontent v1.0.0 ",
+            "version": "17.36.3.3",
+            "versionDate": "2022-09-21T10:00:26-07:00",
+            "versionDescription": "Tweaks\n• com.ps.youpip v1.7.10 \n• me.foxster.donteatmycontent v1.0.0 \n• me.foxster.ytsideloadsigninfix v1.0.0 \n",
             "information": [
                 {
                     "item": "YouTube",
                     "authors": "Google LLC",
                     "url": "https://www.youtube.com"
-                },
-                {
-                    "item": "YTSideloadFix",
-                    "authors": "Michael Melita, BandarHelal",
-                    "url": "https://github.com/michaelmelita1/YTSideloadFix"
                 },
                 {
                     "item": "NoYTPremium",
@@ -43,16 +38,21 @@
                     "url": "https://github.com/therealFoxster/DontEatMyContent"
                 },
                 {
+                    "item": "YTSideloadSignInFix",
+                    "authors": "BandarHL, kkirby & AhmedBafkir ",
+                    "url": "https://github.com/therealFoxster/YTSideloadSignInFix"
+                },
+                {
                     "item": "Return YouTube Dislike",
                     "authors": "PoomSmart, kirb",
                     "url": "https://chariz.com/get/return-youtube-dislike/"
                 }
             ],
-            "downloadURL": "https://drive.google.com/uc?export=download&id=1ePor0FRbHEWm0lg6fq3Jidzm0bNFNkLx&confirm=t",
-            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!\n\nYouTube v17.36.3 (Sep 11, 2022)\n\nTweaks injected\n• com.michaelmelita1.ytsideloadfix v0.0.1 \n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.10 \n• me.alfhaily.cercube v5.3.11 \n• me.foxster.donteatmycontent v1.0.0 \n• weeb.lillie.youtubedislikesreturn v1.6.8 \n\n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205\n",
+            "downloadURL": "https://drive.google.com/uc?export=download&id=1KLXfWzhl3-2ytGcX1NThy489AABCeu7q&confirm=t",
+            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!\n\nYouTube v17.36.3 (Sep 11, 2022)\n\nTweaks injected\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.10 \n• me.alfhaily.cercube v5.3.11 \n• me.foxster.donteatmycontent v1.0.0 \n• me.foxster.ytsideloadsigninfix v1.0.0 \n• weeb.lillie.youtubedislikesreturn v1.6.8 \n\n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205\n",
             "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/YouTube.png",
             "tintColor": "ff0000",
-            "size": 108411806,
+            "size": 108419197,
             "screenshotURLs": [
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2829.PNG?raw=true",
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2831.PNG?raw=true",
