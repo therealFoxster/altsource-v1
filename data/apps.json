@@ -68,7 +68,7 @@
             "subtitle": "Ad-free, unlimited skips and more",
             "version": "8.6.42",
             "versionDate": "2022-09-03T12:00:00-00:00",
-            "versionDescription": "• Spotify v8.6.42 (Jul 9, 2021)\n• com.julioverne.spotilife v1.8 \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52\n\nKnown issues\n• Log in with Google and Apple is broken\n• App won't deactivate with AltStore",
+            "versionDescription": "Spotify v8.6.42 (Jul 9, 2021)\n\nTweaks\n• com.julioverne.spotilife v1.8 \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52\n\nKnown Issues\n• Log in with Google and Apple is broken\n• App won't deactivate with AltStore",
             "information": [
                 {
                     "item": "Spotify",
@@ -92,7 +92,7 @@
                 }
             ],
             "downloadURL": "https://drive.google.com/uc?export=download&id=1VgAmuJ-ukft40t0FjKk89UYn6BbguQtu&confirm=t",
-            "localizedDescription": "This tweaked version of Spotify is completely ad-free and contains various customization features (thanks to @atebitsy/aesthyrica).",
+            "localizedDescription": "This tweaked version of Spotify is completely ad-free and contains various customization features (thanks to @atebitsy/aesthyrica).\n\nSpotify v8.6.42 (Jul 9, 2021)\n\nTweaks injected\n• com.julioverne.spotilife v1.8 \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52\n",
             "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/Spotify.png",
             "tintColor": "1db954",
             "size": 50512487,
