@@ -8,9 +8,9 @@
             "bundleIdentifier": "com.google.ios.youtube",
             "developerName": "Foxster",
             "subtitle": "Ad-free, background playback, download videos and more",
-            "version": "17.36.3.3",
-            "versionDate": "2022-09-21T10:00:26-07:00",
-            "versionDescription": "Tweaks\n• com.ps.youpip v1.7.10 \n• me.foxster.donteatmycontent v1.0.0 \n• me.foxster.ytsideloadsigninfix v1.0.0 \n",
+            "version": "17.37.3",
+            "versionDate": "2022-09-21T16:43:35-07:00",
+            "versionDescription": "\"Fixed bugs, improved performance, took the afternoon off.\"",
             "information": [
                 {
                     "item": "YouTube",
@@ -55,11 +55,11 @@
                     "url": "https://chariz.com/get/return-youtube-dislike/"
                 }
             ],
-            "downloadURL": "https://drive.google.com/uc?export=download&id=1KLXfWzhl3-2ytGcX1NThy489AABCeu7q&confirm=t",
-            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!\n\nYouTube v17.36.3 (Sep 11, 2022)\n\nTweaks injected\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.10 \n• me.alfhaily.cercube v5.3.11 \n• me.foxster.donteatmycontent v1.0.0 \n• me.foxster.ytsideloadsigninfix v1.0.0 \n• weeb.lillie.youtubedislikesreturn v1.6.8 \n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205",
+            "downloadURL": "https://drive.google.com/uc?export=download&id=1bukgLgwS4PddsYgdiCxuZR-q3thGVZVl&confirm=t",
+            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!\n\nTweaks injected\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.10 \n• me.alfhaily.cercube v5.3.11 \n• me.foxster.donteatmycontent v1.0.0 \n• me.foxster.ytsideloadsigninfix v1.0.0 \n• weeb.lillie.youtubedislikesreturn v1.6.8 \n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205",
             "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/YouTube.png",
             "tintColor": "ff0000",
-            "size": 108419197,
+            "size": 121060869,
             "screenshotURLs": [
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2829.PNG?raw=true",
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2831.PNG?raw=true",
