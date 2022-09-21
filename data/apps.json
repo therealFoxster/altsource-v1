@@ -14,36 +14,43 @@
             "information": [
                 {
                     "item": "YouTube",
+                    "version": "v17.36.3",
                     "authors": "Google LLC",
                     "url": "https://www.youtube.com"
                 },
                 {
                     "item": "NoYTPremium",
+                    "version": "v1.0.3",
                     "authors": "PoomSmart",
                     "url": "https://poomsmart.github.io/repo/depictions/noytpremium.html"
                 },
                 {
                     "item": "YouPiP",
+                    "version": "v1.7.10",
                     "authors": "PoomSmart",
                     "url": "https://poomsmart.github.io/repo/depictions/youpip.html"
                 },
                 {
                     "item": "Cercube",
+                    "version": "v5.3.11",
                     "authors": "Majd Alfhaily",
                     "url": "https://apt.alfhaily.me/depictions/cercube"
                 },
                 {
                     "item": "DontEatMyContent",
+                    "version": "v1.0.0",
                     "authors": "Foxster",
                     "url": "https://github.com/therealFoxster/DontEatMyContent"
                 },
                 {
                     "item": "YTSideloadSignInFix",
+                    "version": "v1.0.0",
                     "authors": "BandarHL, kkirby & AhmedBafkir ",
                     "url": "https://github.com/therealFoxster/YTSideloadSignInFix"
                 },
                 {
                     "item": "Return YouTube Dislike",
+                    "version": "v1.6.8",
                     "authors": "PoomSmart, kirb",
                     "url": "https://chariz.com/get/return-youtube-dislike/"
                 }
@@ -72,21 +79,25 @@
             "information": [
                 {
                     "item": "Spotify",
+                    "version": "v8.6.42",
                     "authors": "Spotify AB",
                     "url": "https://www.spotify.com"
                 },
                 {
                     "item": "Spotilife",
+                    "version": "v1.8",
                     "authors": "julioverne",
                     "url": "https://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife"
                 },
                 {
                     "item": "Sposify",
+                    "version": "v8.5.52",
                     "authors": "aesthyrica",
                     "url": "https://repo.dynastic.co/package/com.spos"
                 },
                 {
                     "item": "Sposify Fix",
+                    "version": "v0.0.6",
                     "authors": "level3tjg",
                     "url": "https://level3tjg.me/repo/depictions?p=com.level3tjg.sposifyfix"
                 }
