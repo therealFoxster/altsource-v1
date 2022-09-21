@@ -67,7 +67,7 @@ $.getJSON("data/apps.json", function (json) {
           </div>
           <div class="grey cell-accessory-icon">
           <p class="cell-detail-text">
-            ${information.authors ?? ""}
+            <span id="authors">${information.authors ?? ""}</span>
             <i class="bi bi-chevron-right" style="font-size: 12px; -webkit-text-stroke: 1px; color: unset; opacity: 0.5;"></i>
           </p>
         </div>

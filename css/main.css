@@ -94,6 +94,15 @@ body {
   padding: 10px 0 !important;
 }
 
+.link.cell #authors {
+  display: inline-block;
+  vertical-align: bottom;
+  max-width: 40vw;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 /* No border for last information cell */
 .link.cell:last-of-type .cell-inner {
   border: none !important;
