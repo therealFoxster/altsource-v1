@@ -49,7 +49,7 @@
                 }
             ],
             "downloadURL": "https://drive.google.com/uc?export=download&id=1KLXfWzhl3-2ytGcX1NThy489AABCeu7q&confirm=t",
-            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!\n\nYouTube v17.36.3 (Sep 11, 2022)\n\nTweaks injected\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.10 \n• me.alfhaily.cercube v5.3.11 \n• me.foxster.donteatmycontent v1.0.0 \n• me.foxster.ytsideloadsigninfix v1.0.0 \n• weeb.lillie.youtubedislikesreturn v1.6.8 \n\n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205\n",
+            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!\n\nYouTube v17.36.3 (Sep 11, 2022)\n\nTweaks injected\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.10 \n• me.alfhaily.cercube v5.3.11 \n• me.foxster.donteatmycontent v1.0.0 \n• me.foxster.ytsideloadsigninfix v1.0.0 \n• weeb.lillie.youtubedislikesreturn v1.6.8 \n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205",
             "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/YouTube.png",
             "tintColor": "ff0000",
             "size": 108419197,
@@ -92,7 +92,7 @@
                 }
             ],
             "downloadURL": "https://drive.google.com/uc?export=download&id=1VgAmuJ-ukft40t0FjKk89UYn6BbguQtu&confirm=t",
-            "localizedDescription": "This tweaked version of Spotify is completely ad-free and contains various customization features (thanks to @atebitsy/aesthyrica).\n\nSpotify v8.6.42 (Jul 9, 2021)\n\nTweaks injected\n• com.julioverne.spotilife v1.8 \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52\n",
+            "localizedDescription": "This tweaked version of Spotify is completely ad-free and contains various customization features (thanks to @atebitsy/aesthyrica).\n\nSpotify v8.6.42 (Jul 9, 2021)\n\nTweaks injected\n• com.julioverne.spotilife v1.8 \n• com.level3tjg.sposifyfix v0.0.6 \n• com.spos v8.5.52",
             "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/Spotify.png",
             "tintColor": "1db954",
             "size": 50512487,
