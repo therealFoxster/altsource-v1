@@ -13,7 +13,7 @@ $.getJSON("data/apps.json", function (json) {
   const dayOfWeek = daysOfWeek[today.getDay()],
         month = months[today.getMonth()],
         date = today.getDate();
-  $("#today").text(`${dayOfWeek}, ${month} ${date}`)
+  $("#today").text(`${dayOfWeek}, ${month} ${date}`);
 
   json.apps.forEach(app => {
     let html = `
