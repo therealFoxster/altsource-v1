@@ -39,6 +39,9 @@
   background: unset;
   color: var(--primary-color);
   cursor: pointer;
+}
+
+#back button {
   margin-top: 10px !important;
 }
 
