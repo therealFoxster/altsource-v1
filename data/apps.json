@@ -8,13 +8,13 @@
             "bundleIdentifier": "com.google.ios.youtube",
             "developerName": "Foxster",
             "subtitle": "Ad-free, background playback, download videos and more",
-            "version": "17.37.3",
-            "versionDate": "2022-09-21T16:43:35-07:00",
-            "versionDescription": "YouTube v17.37.3 (Sep 19, 2022)\n\"Fixed bugs, improved performance, took the afternoon off.\"",
+            "version": "17.39.4",
+            "versionDate": "2022-10-04T21:25:44-07:00",
+            "versionDescription": "YouTubeDislikesReturn v1.7.0\n\"Added localization for Romanian, Russian, Spanish and Vietnamese.\"\n\nDontEatMyContent v1.0.1\n\"Version bump (1.0.0 -> 1.0.1). Hopefully fixed support for iPhone 14 Pro and iPhone 14 Pro Max.\"\n\nYouTube v17.39.4 (Oct 2, 2022)\n\"Fixed bugs, improved performance, explored the edges of the known universe.\"",
             "information": [
                 {
                     "item": "YouTube",
-                    "version": "v17.37.3",
+                    "version": "v17.39.4",
                     "authors": "Google LLC",
                     "url": "https://www.youtube.com"
                 },
@@ -38,7 +38,7 @@
                 },
                 {
                     "item": "DontEatMyContent",
-                    "version": "v1.0.0",
+                    "version": "v1.0.1",
                     "authors": "Foxster",
                     "url": "https://github.com/therealFoxster/DontEatMyContent"
                 },
@@ -50,16 +50,16 @@
                 },
                 {
                     "item": "Return YouTube Dislike",
-                    "version": "v1.6.8",
+                    "version": "v1.7.0",
                     "authors": "PoomSmart, kirb",
                     "url": "https://chariz.com/get/return-youtube-dislike/"
                 }
             ],
-            "downloadURL": "https://drive.google.com/uc?export=download&id=1bukgLgwS4PddsYgdiCxuZR-q3thGVZVl&confirm=t",
-            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, Picture-in-Picture, you name it!\n\nYouTube v17.37.3 (Sep 19, 2022)\n\nTweaks injected\n• com.ps.noytpremium v1.0.3 \n• com.ps.youpip v1.7.10 \n• me.alfhaily.cercube v5.3.11 \n• me.foxster.donteatmycontent v1.0.0 \n• me.foxster.ytsideloadsigninfix v1.0.0 \n• weeb.lillie.youtubedislikesreturn v1.6.8 \n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205",
+            "downloadURL": "https://drive.google.com/uc?export=download&id=1Xf3IEH9OrbEf0AsYjM_3YZwBVJjnuDn8&confirm=t",
+            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, background playback, you name it!\n\nTweaks injected\n• NoYTPremium v1.0.3\n • YouPiP v1.7.10\n • Cercube v5.3.11\n • DontEatMyContent v1.0.1\n • YTSideloadSignInFix v1.0.0\n • YouTubeDislikesReturn v1.7.0\n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205",
             "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/YouTube.png",
             "tintColor": "ff0000",
-            "size": 121060869,
+            "size": 122349377,
             "screenshotURLs": [
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2829.PNG?raw=true",
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2831.PNG?raw=true",
