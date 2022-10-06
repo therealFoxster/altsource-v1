@@ -22,10 +22,23 @@ $.getJSON("data/apps.json", function (json) {
   $("#version").text(app.version);
   
   const versionDate = new Date(app.versionDate),
-        month = versionDate.toUTCString().split(" ")[2],
-        date = versionDate.getDate(),
-        dateStr = `${month} ${date}, ${versionDate.getFullYear()}`;
-  $("#version-date").text(dateStr);
+    month = versionDate.toUTCString().split(" ")[2],
+    date = versionDate.getDate(),
+    dateStr = `${month} ${date}, ${versionDate.getFullYear()}`;
+
+  const today = new Date();
+  
+  if (versionDate.getFullYear() == today.getFullYear() && versionDate.getMonth() && today.getMonth()) {
+    const difference = today.getDate() - versionDate.getDate();
+    
+    if (difference == 0)
+      $("#version-date").text("Today");
+    else if (difference == 0) 
+      $("#version-date").text("Yesterday");
+    else
+      $("#version-date").text(dateStr);
+  }
+
   
   $("#version-description").html(app.versionDescription.replaceAll("\n", "<br>"));
   
