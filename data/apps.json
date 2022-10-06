@@ -8,9 +8,9 @@
             "bundleIdentifier": "com.google.ios.youtube",
             "developerName": "Foxster",
             "subtitle": "Ad-free, background playback, download videos and more",
-            "version": "17.39.4",
-            "versionDate": "2022-10-04T21:25:44-07:00",
-            "versionDescription": "YouTubeDislikesReturn v1.7.0\n\"Added localization for Romanian, Russian, Spanish and Vietnamese.\"\n\nDontEatMyContent v1.0.1\n\"Version bump (1.0.0 -> 1.0.1). Hopefully fixed support for iPhone 14 Pro and iPhone 14 Pro Max.\"\n\nYouTube v17.39.4 (Oct 2, 2022)\n\"Fixed bugs, improved performance, explored the edges of the known universe.\"",
+            "version": "17.39.4.1",
+            "versionDate": "2022-10-06T14:47:09-07:00",
+            "versionDescription": "DontEatMyContent v1.0.2\n\"Add another method to get aspect ratio. Hopefully the tweak now works for users who were having issues.\"\n\nYouTubeDislikesReturn v1.7.0\n\"Added localization for Romanian, Russian, Spanish and Vietnamese.\"\n\nYouTube v17.39.4 (Oct 2, 2022)\n\"Fixed bugs, improved performance, explored the edges of the known universe.\"",
             "information": [
                 {
                     "item": "YouTube",
@@ -38,7 +38,7 @@
                 },
                 {
                     "item": "DontEatMyContent",
-                    "version": "v1.0.1",
+                    "version": "v1.0.2",
                     "authors": "Foxster",
                     "url": "https://github.com/therealFoxster/DontEatMyContent"
                 },
@@ -55,11 +55,11 @@
                     "url": "https://chariz.com/get/return-youtube-dislike/"
                 }
             ],
-            "downloadURL": "https://drive.google.com/uc?export=download&id=1mfEZh3MQKa7aNXVNub_iURAjAofv1oR4&confirm=t",
-            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, background playback, you name it!\n\nTweaks injected\n• NoYTPremium v1.0.3\n• YouPiP v1.7.10\n• Cercube v5.3.11\n• DontEatMyContent v1.0.1\n• YTSideloadSignInFix v1.0.0\n• YouTubeDislikesReturn v1.7.0\n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205",
+            "downloadURL": "https://drive.google.com/uc?export=download&id=1_oeuYkyxqbWSveslbdFZn9HFxkJxf5Qo&confirm=t",
+            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, background playback, you name it!\n\nTweaks injected\n• NoYTPremium v1.0.3\n• YouPiP v1.7.10\n• Cercube v5.3.11\n• DontEatMyContent v1.0.2\n• YTSideloadSignInFix v1.0.0\n• YouTubeDislikesReturn v1.7.0\n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205",
             "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/YouTube.png",
             "tintColor": "ff0000",
-            "size": 122349377,
+            "size": 122349823,
             "screenshotURLs": [
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2829.PNG?raw=true",
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2831.PNG?raw=true",
