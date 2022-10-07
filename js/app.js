@@ -33,7 +33,7 @@ $.getJSON("data/apps.json", function (json) {
     
     if (difference == 0)
       $("#version-date").text("Today");
-    else if (difference == 0) 
+    else if (difference == 1) 
       $("#version-date").text("Yesterday");
     else
       $("#version-date").text(dateStr);
