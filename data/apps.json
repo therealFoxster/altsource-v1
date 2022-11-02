@@ -8,13 +8,13 @@
             "bundleIdentifier": "com.google.ios.youtube",
             "developerName": "Foxster",
             "subtitle": "Ad-free, background playback, download videos and more",
-            "version": "17.39.4.1",
-            "versionDate": "2022-10-06T14:47:09-07:00",
-            "versionDescription": "DontEatMyContent v1.0.2\n\"Add another method to get aspect ratio. Hopefully the tweak now works for users who were having issues.\"\n\nYouTubeDislikesReturn v1.7.0\n\"Added localization for Romanian, Russian, Spanish and Vietnamese.\"\n\nYouTube v17.39.4 (Oct 2, 2022)\n\"Fixed bugs, improved performance, explored the edges of the known universe.\"",
+            "version": "17.43.1",
+            "versionDate": "2022-11-01T22:52:07-07:00",
+            "versionDescription": "DontEatMyContent v1.0.3\n\"Updated to work with YouTube's redesign.\"\n\nYouPIP v1.7.14\n\"Added ro localization & updated ar localization\"\n\nYouTubeDislikesReturn v1.7.3\n\"Fixed crashing when watching a video on YouTube 17.42.6.\"\n\nYouTube v17.43.1 (Oct 31, 2022)\n\"Fixed bugs, improved performance, took the afternoon off.\"",
             "information": [
                 {
                     "item": "YouTube",
-                    "version": "v17.39.4",
+                    "version": "v17.43.1",
                     "authors": "Google LLC",
                     "url": "https://www.youtube.com"
                 },
@@ -26,7 +26,7 @@
                 },
                 {
                     "item": "YouPiP",
-                    "version": "v1.7.10",
+                    "version": "v1.7.14",
                     "authors": "PoomSmart",
                     "url": "https://poomsmart.github.io/repo/depictions/youpip.html"
                 },
@@ -38,7 +38,7 @@
                 },
                 {
                     "item": "DontEatMyContent",
-                    "version": "v1.0.2",
+                    "version": "v1.0.3",
                     "authors": "Foxster",
                     "url": "https://github.com/therealFoxster/DontEatMyContent"
                 },
@@ -50,16 +50,16 @@
                 },
                 {
                     "item": "Return YouTube Dislike",
-                    "version": "v1.7.0",
+                    "version": "v1.7.3",
                     "authors": "PoomSmart, kirb",
                     "url": "https://chariz.com/get/return-youtube-dislike/"
                 }
             ],
-            "downloadURL": "https://drive.google.com/uc?export=download&id=1_oeuYkyxqbWSveslbdFZn9HFxkJxf5Qo&confirm=t",
-            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, background playback, you name it!\n\nTweaks injected\n• NoYTPremium v1.0.3\n• YouPiP v1.7.10\n• Cercube v5.3.11\n• DontEatMyContent v1.0.2\n• YTSideloadSignInFix v1.0.0\n• YouTubeDislikesReturn v1.7.0\n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205",
+            "downloadURL": "https://drive.google.com/uc?export=download&id=16rvAvF3f0ahTlB8oijkkTe2zBvACciIC&confirm=t",
+            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, background playback, you name it!\n\nTweaks injected\n• NoYTPremium\n• YouPiP\n• Cercube\n• DontEatMyContent\n• YTSideloadSignInFix\n• YouTubeDislikesReturn\n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205",
             "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/YouTube.png",
             "tintColor": "ff0000",
-            "size": 122349823,
+            "size": 109969613,
             "screenshotURLs": [
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2829.PNG?raw=true",
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2831.PNG?raw=true",
