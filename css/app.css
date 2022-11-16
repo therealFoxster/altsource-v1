@@ -187,6 +187,7 @@
 
 #preview-images {
   display: flex;
+  align-items: center;
   overflow-x: scroll;
   padding: 0 16px;
 }
