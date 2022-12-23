@@ -18,7 +18,10 @@
 
 /* Buttons */
 
-#buttons { display: flex; }
+#buttons {
+  display: flex;
+  margin-top: 8px;
+}
 
 /* Install button */
 #install button {
@@ -105,6 +108,10 @@
 #preview-text {
   -webkit-line-clamp: 3;
   line-clamp: 3;
+}
+
+#version-description {
+  text-overflow: ellipsis;
 }
 
 /* Text containers */
@@ -195,7 +202,7 @@
 #preview-images img {
   margin-right: 8px;
   border: 1px solid var(--cell-separator);
-  border-radius: 16px;
+  border-radius: 10px;
   width: 70%;
   max-width: 350px;
 }

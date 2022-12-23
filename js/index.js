@@ -23,7 +23,7 @@ $.getJSON("data/apps.json", function (json) {
       </div>
       <div class="cell-inner">
         <div class="cell-labels">
-          <p class="cell-text">${app.name}</p>
+          <p class="cell-text">${app.name.replaceAll("(Deprecated)", `<span class="deprecated badge"></span>`)}</p>
           <p class="cell-detail-text">${app.subtitle}</p>
         </div>
         <a href="app.html?id=${app.id}">

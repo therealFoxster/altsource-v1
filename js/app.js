@@ -13,7 +13,7 @@ $.getJSON("data/apps.json", function (json) {
   
   $("title").text(`${app.name} – AltSource`);
   $("#app-icon").attr('src', app.iconURL);
-  $("#app-name").text(app.name);
+  $("#app-name").html(app.name.replaceAll("(Deprecated)", `<span class="deprecated badge"></span>`));
   $("#subtitle").text(app.subtitle);
   $("#install").attr('href', `altstore://install?url=${app.downloadURL}`);
   $("#download").attr('href', app.downloadURL);
@@ -39,8 +39,14 @@ $.getJSON("data/apps.json", function (json) {
       $("#version-date").text(dateStr);
   }
 
-  
-  $("#version-description").html(app.versionDescription.replaceAll("\n", "<br>"));
+  let versionDescriptionFirstLink;
+  if (app.versionDescription.split(" \n")[1] != null) {
+    const linkStart = app.versionDescription.split(" \n")[1]
+    if (linkStart.startsWith("http")) {
+      versionDescriptionFirstLink = linkStart.split(" ")[0]
+    }
+  }
+  $("#version-description").html(app.versionDescription.replaceAll("\n", "<br>").replace(versionDescriptionFirstLink, `<a href="${versionDescriptionFirstLink}">${versionDescriptionFirstLink}</a>`));
   
   const versionDescription = document.getElementById("version-description");
 
@@ -49,8 +55,16 @@ $.getJSON("data/apps.json", function (json) {
     $("#preview-images").append(image);
   });
 
-  $("#preview-text").html(app.localizedDescription.split("\n   \n")[0].replaceAll("\n", "<br>"));
+  // First link in localized description.
+  let localizedDescriptionFirstLink = "";
+  if (app.localizedDescription.split(" \n")[1] != null) {
+    const linkStart = app.localizedDescription.split(" \n")[1];
+    localizedDescriptionFirstLink = linkStart.split("\n\n")[0]
+  }
 
+  $("#preview-text").html(app.localizedDescription.split("\n   \n")[0].replaceAll("\n", "<br>").replace(localizedDescriptionFirstLink, `<a href="${localizedDescriptionFirstLink}">${localizedDescriptionFirstLink}</a>`));
+
+  // Workaround text.
   if (app.localizedDescription.split("\n   \n")[1] != null) {
     const workaroundText = app.localizedDescription.split("\n   \n")[1];
     const workaroundHTML = `

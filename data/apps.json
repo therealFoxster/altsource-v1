@@ -3,9 +3,89 @@
     "identifier": "me.foxster.AltSource",
     "apps": [
         {
-            "id": "youtube",
-            "name": "YouTube",
+            "id": "uyouplus",
+            "name": "uYouPlus",
             "bundleIdentifier": "com.google.ios.youtube",
+            "developerName": "MiRO92 & Qn_",
+            "subtitle": "The best tweak for the YouTube app and more",
+            "version": "17.48.2-2.1",
+            "size": 115872093,
+            "versionDate": "2022-12-11T18:28:00-08:00",
+            "versionDescription": "Version changelog: \nhttps://github.com/qnblackcat/uYouPlus/releases/tag/v17.48.2-2.1 ",
+            "downloadURL": "https://github.com/qnblackcat/uYouPlus/releases/download/v17.48.2-2.1/uYouPlus_17.48.2_2.1.ipa",
+            "information": [
+                {
+                    "item": "uYouPlus",
+                    "version": "v17.48.2-2.1",
+                    "authors": "MiRO92 & Qn_",
+                    "url": "https://github.com/qnblackcat/uYouPlus"
+                }
+            ],
+            "localizedDescription": "uYou is the best tweak for the YouTube app.\n\nuYouPlus is a modified version of uYou with even more features.\n\nAdditional features:\n• Skip sponsorships in videos (iSponsorBlock)\n• Even more PiP options (YouPiP)\n• Unlock 1440p and 2160p resolutions (YTUHD)\n• Automatically play videos in full screen (YTAutoFullScreen)\n• Revert to the original video quality selector (YTClassicVideoQuality)\n• Disable overlay at the end of videos (YTNoHoverCards)\n• Remove Local Network permission check (YTNoCheckLocalNetwork)\n• Make YouTube remember video caption setting, if not already (YouRememberCaption)\n• Remove YouTube Premium upsell alerts (NoYTPremium)\n• Even more playback speeds (YTSpeed)\n• Enable the miniplayer for all videos (YTMiniplayerEnabler)\n• Prevent the notch/Dynamic Island from cutting into 2:1 videos (DontEatMyContent)\n• Enable YouTube shorts progress/scrubber (YTShortsProgress)\n• Configure A/B settings in the YouTube app (YTABConfig)\n• And possibly more\n\nMore information: \nhttps://github.com/qnblackcat/uYouPlus/\n\nRequires iOS 14.0 or later.\n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205",
+            "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/uYou.png",
+            "tintColor": "ff0000",
+            "screenshotURLs": [
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/uYouPlus/uyouplus1.jpeg?raw=true",
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/uYouPlus/uyouplus2.jpeg?raw=true",
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/uYouPlus/uyouplus3.jpeg?raw=true",
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/uYouPlus/uyouplus4.jpeg?raw=true",
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/uYouPlus/uyouplus5.jpeg?raw=true",
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/uYouPlus/uyouplus6.jpeg?raw=true"
+            ]
+        },
+        {
+            "id": "spotify",
+            "name": "Spotify Tweaked",
+            "bundleIdentifier": "com.spotify.client",
+            "developerName": "Foxster",
+            "subtitle": "Ad-free, unlimited skips and more",
+            "version": "8.6.42",
+            "versionDate": "2022-09-03T12:00:00-00:00",
+            "versionDescription": "Spotify v8.6.42 (Jul 9, 2021)\n\"We’re always making changes and improvements to Spotify. To make sure you don’t miss a thing, just keep your Updates turned on.\n\nBug fixes and improvements in this version include:\n- Fixed stability issues\"\n\nTweaks\n• Spotilife v1.8 \n• Sposify Fix v0.0.6 \n• Sposify v8.5.52\n\nKnown issues\n• Log in with Google and Apple is broken\n• App won't deactivate with AltStore",
+            "information": [
+                {
+                    "item": "Spotify",
+                    "version": "v8.6.42",
+                    "authors": "Spotify AB",
+                    "url": "https://www.spotify.com"
+                },
+                {
+                    "item": "Spotilife",
+                    "version": "v1.8",
+                    "authors": "julioverne",
+                    "url": "https://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife"
+                },
+                {
+                    "item": "Sposify",
+                    "version": "v8.5.52",
+                    "authors": "aesthyrica",
+                    "url": "https://repo.dynastic.co/package/com.spos"
+                },
+                {
+                    "item": "Sposify Fix",
+                    "version": "v0.0.6",
+                    "authors": "level3tjg",
+                    "url": "https://level3tjg.me/repo/depictions?p=com.level3tjg.sposifyfix"
+                }
+            ],
+            "downloadURL": "https://drive.google.com/uc?export=download&id=1VgAmuJ-ukft40t0FjKk89UYn6BbguQtu&confirm=t",
+            "localizedDescription": "This tweaked version of Spotify is completely ad-free and contains various customization features (thanks to @atebitsy/aesthyrica).\n\nTweaks injected\n• Spotilife \n• Sposify Fix\n• Sposify",
+            "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/Spotify.png",
+            "tintColor": "1db954",
+            "size": 50512487,
+            "screenshotURLs": [
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2841.PNG?raw=true",
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2843.PNG?raw=true",
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2845.PNG?raw=true",
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2846.PNG?raw=true",
+                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2847.PNG?raw=true"
+            ]
+        },
+        {
+            "id": "youtube",
+            "name": "YouTube Tweaked (Deprecated)",
+            "beta": true,
+            "bundleIdentifier": "com.google.ios.youtube.old",
             "developerName": "Foxster",
             "subtitle": "Ad-free, background playback, download videos and more",
             "version": "17.45.1",
@@ -56,7 +136,7 @@
                 }
             ],
             "downloadURL": "https://drive.google.com/uc?export=download&id=1IXV-0wodKG7S4s2UIGwK9ttjkT_M0ONh&confirm=t",
-            "localizedDescription": "Tweaked version of YouTube with awesome additional features. Download videos, block ads, background playback, you name it!\n\nTweaks injected\n• NoYTPremium\n• YouPiP\n• Cercube\n• DontEatMyContent\n• YTSideloadSignInFix\n• YouTubeDislikesReturn\n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205",
+            "localizedDescription": "This app is deprecated. Use uYouPlus instead: \nhttps://therealfoxster.github.io/altsource/app.html?id=uyouplus \n\nTweaked version of YouTube with awesome additional features. Download videos, block ads, background playback, you name it!\n\nTweaks injected\n• NoYTPremium\n• YouPiP\n• Cercube\n• DontEatMyContent\n• YTSideloadSignInFix\n• YouTubeDislikesReturn\n   \nCan't sign in? See this workaround: \nhttps://gist.github.com/therealFoxster/99d9a68497b223b8766956f1b058e205",
             "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/YouTube.png",
             "tintColor": "ff0000",
             "size": 109791836,
@@ -65,54 +145,6 @@
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2831.PNG?raw=true",
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2832.PNG?raw=true",
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2833.PNG?raw=true"
-            ]
-        },
-        {
-            "id": "spotify",
-            "name": "Spotify",
-            "bundleIdentifier": "com.spotify.client",
-            "developerName": "Foxster",
-            "subtitle": "Ad-free, unlimited skips and more",
-            "version": "8.6.42",
-            "versionDate": "2022-09-03T12:00:00-00:00",
-            "versionDescription": "Spotify v8.6.42 (Jul 9, 2021)\n\"We’re always making changes and improvements to Spotify. To make sure you don’t miss a thing, just keep your Updates turned on.\n\nBug fixes and improvements in this version include:\n- Fixed stability issues\"\n\nTweaks\n• Spotilife v1.8 \n• Sposify Fix v0.0.6 \n• Sposify v8.5.52\n\nKnown issues\n• Log in with Google and Apple is broken\n• App won't deactivate with AltStore",
-            "information": [
-                {
-                    "item": "Spotify",
-                    "version": "v8.6.42",
-                    "authors": "Spotify AB",
-                    "url": "https://www.spotify.com"
-                },
-                {
-                    "item": "Spotilife",
-                    "version": "v1.8",
-                    "authors": "julioverne",
-                    "url": "https://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife"
-                },
-                {
-                    "item": "Sposify",
-                    "version": "v8.5.52",
-                    "authors": "aesthyrica",
-                    "url": "https://repo.dynastic.co/package/com.spos"
-                },
-                {
-                    "item": "Sposify Fix",
-                    "version": "v0.0.6",
-                    "authors": "level3tjg",
-                    "url": "https://level3tjg.me/repo/depictions?p=com.level3tjg.sposifyfix"
-                }
-            ],
-            "downloadURL": "https://drive.google.com/uc?export=download&id=1VgAmuJ-ukft40t0FjKk89UYn6BbguQtu&confirm=t",
-            "localizedDescription": "This tweaked version of Spotify is completely ad-free and contains various customization features (thanks to @atebitsy/aesthyrica).\n\nTweaks injected\n• Spotilife \n• Sposify Fix\n• Sposify",
-            "iconURL": "https://raw.githubusercontent.com/therealFoxster/AltSource/master/img/icons/Spotify.png",
-            "tintColor": "1db954",
-            "size": 50512487,
-            "screenshotURLs": [
-                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2841.PNG?raw=true",
-                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2843.PNG?raw=true",
-                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2845.PNG?raw=true",
-                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2846.PNG?raw=true",
-                "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/Spotify/IMG_2847.PNG?raw=true"
             ]
         }
     ]
