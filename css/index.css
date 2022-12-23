@@ -52,7 +52,7 @@
   font-weight: 650 !important;
   text-transform: capitalize !important;
   opacity: 100% !important;
-  border-top: 0.5px solid var(--cell-separator);
+  /* border-top: 0.5px solid var(--cell-separator); */
 }
 
 #uitableview .custom.section-footer {
