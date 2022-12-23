@@ -1,8 +1,8 @@
 #today {
   margin-left: 16px;
-  padding-top: 16px !important;
+  padding-top: 28px !important;
   text-transform: uppercase;
-  font-size: 13.25px;
+  font-size: 14px;
   font-weight: 575;
   opacity: 0.45;
 }
@@ -78,4 +78,85 @@
   #note {
     background-color: var(--cell-background-dark);
   }
+}
+
+#add {
+  /* background-color: red; */
+  margin: 14px;
+  border-radius: 14px !important;
+  overflow: hidden;
+}
+
+#add {
+  position: relative;
+  color: white;
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* justify-items: baseline; */
+}
+
+#add .background-image {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-color: black;
+  opacity: 0.85;
+}
+
+#add .background-image>img {
+  max-width: 100% !important;
+  opacity: 0.85;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  scale: 1.1; /* Remove white edges caused by blur */
+}
+
+#add h1 {
+  z-index: 5;
+  text-transform: uppercase;
+  max-width: 50%;
+  
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 36px;
+  position: absolute;
+  bottom: 0;
+}
+
+#add .text {
+  flex-grow: 1;
+  flex-shrink: 0;
+  position: relative;
+  margin: 20px;
+}
+
+#add .cell {
+  background-color: #359B9FCD !important;
+  /* opacity: 0.85; */
+  padding: 0 6px;
+}
+
+#add .app.icon {
+  max-width: 48px;
+  border-radius: 11px;
+}
+
+#add .cell-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#add .cell-detail-text {
+  opacity: 1;
+}
+
+#add .button-wrapper>.detail-text {
+  opacity: 0.9;
+  width: unset;
+}
+
+#add .uibutton {
+  background-color: white;
 }

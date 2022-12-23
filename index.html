@@ -21,13 +21,41 @@
     <p id="today">Date</p>
     <h1 id="title">Foxster's AltStore Source</h1>
     <!-- Note -->
-    <div id="note">
+    <div id="add">
+      <div class="text">
+        <!-- <p style="text-transform: uppercase; opacity: 0.7; font-size: 14px; font-weight: 550;">Requires AltStore beta</p> -->
+        <h1>Before You Dive In</h1>
+      </div>
+      <div>
+        <div class="cell custom">
+          <div class="cell-icon" id="${app.id}">
+            <img src="img/icons/AltStore.jpg" alt="altstore-icon" class="app icon">
+          </div>
+          <div class="cell-inner">
+            <div class="cell-labels">
+              <p class="cell-text">AltStore</p>
+              <p class="cell-detail-text">Add this source to AltStore to receive app updates</p>
+            </div>
+            <div class="button-wrapper">
+              <a href="altstore://source?url=https://therealfoxster.github.io/altsource/data/apps.json">
+                <button class="uibutton">Add</button>
+              </a>
+              <p class="detail-text">Requires AltStore Beta</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="background-image">
+        <img src="img/icons/AltStore.jpg" alt="altstore-icon">
+      </div>
+    </div>
+    <!-- <div id="note">
       <i class="bi bi-exclamation-triangle"></i>
       <p class="header">Before You Dive In</p>
       <p class="description">If you don't have AltStore beta, you can still install (sideload) the app without adding the source. Keep in mind that you won't be receiving app updates through AltStore. You can also download the .ipa file to sideload it using other tools.</p>
       <br>
       <p class="description">If you have AltStore beta, add this source to AltStore (see top banner) to receive future app updates directly through AltStore. Once the source is added, you can find the apps in the "Browse" tab in AltStore.</p>
-    </div>
+    </div> -->
     <!-- Tweaked apps -->
     <div class="custom section-container">
       <div class="section" id="tweaked-apps">
@@ -46,7 +74,7 @@
   </div>
   <!-- Scripts -->
   <script src="js/loading.js"></script>
-  <script src="js/uibanner.js"></script>
+  <!-- <script src="js/uibanner.js"></script> -->
   <script src="js/index.js"></script>
 </body>
 </html>

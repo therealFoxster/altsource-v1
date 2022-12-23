@@ -70,7 +70,7 @@
 }
 
 /* Button wrapper */
-.button-wrapper {
+/* .button-wrapper {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -82,7 +82,7 @@
   font-size: 8px;
   text-align: center;
   opacity: 0.5;
-}
+} */
 /* First button (install) */
 #buttons .button-wrapper:first-of-type {
   margin-right: 12px;

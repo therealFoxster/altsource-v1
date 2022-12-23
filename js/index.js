@@ -13,7 +13,21 @@ $.getJSON("data/apps.json", function (json) {
   const dayOfWeek = daysOfWeek[today.getDay()],
         month = months[today.getMonth()],
         date = today.getDate();
-  $("#today").text(`${dayOfWeek}, ${month} ${date}`);
+  // $("#today").text(`${dayOfWeek}, ${month} ${date}`);
+  
+  let tod; // Time of day
+  const hour = today.getHours();
+  if (hour < 5 || hour > 21)
+    tod = "Evening"
+  else if (hour < 12)
+    tod = "Morning"
+  else if (hour < 17)
+    tod = "Afternoon"
+  else if (hour <= 21)
+    tod = "Evening"
+  else
+    tod = "Day"
+  $("#today").text(`Good ${tod}!`);
 
   json.apps.forEach(app => {
     let html = `
