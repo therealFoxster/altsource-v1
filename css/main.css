@@ -111,7 +111,7 @@ body {
 .badge {
   margin-left: 0.05rem !important;
   margin-right: 0.05rem !important;
-  padding: 3px 11px;
+  padding: 0.5px 6.5px;
   font-size: 10px;
   line-height: 1.3333733333;
   font-weight: 700;
@@ -124,19 +124,33 @@ body {
   background: transparent;
   text-transform: uppercase;
   vertical-align: middle;
+  color: white;
+  border-color: transparent;
+}
+
+.small.badge {
+  font-size: 8px;
 }
 
 .deprecated.badge {
-  color: #f63e54;
-  border-color: #f63e54;
-  margin-top: 2px;
-  margin-bottom: 4px;
-  /* color: white;
-  background-color: #f63e54; */
+  /* margin-top: 2px;
+  margin-bottom: 4px; */
+  background-color: #f63e54;
 }
 
 .deprecated.badge::before {
   content: "Deprecated";
+}
+
+.beta.badge {
+  margin-bottom: 2px;
+  /* color: #f5a10d; */
+  /* border-color: #f5a10d; */
+  background-color: #f5a10d;
+}
+
+.beta.badge::before {
+  content: "Beta";
 }
 
 /* Button wrapper */

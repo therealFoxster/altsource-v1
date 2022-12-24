@@ -4,7 +4,7 @@ $("#content").prepend(`
   <img src="img/icons/AltStore.jpg" alt="altstore-icon" class="icon">
   <div class="content">
     <div class="text-container">
-      <p class="title-text">AltStore</p>
+      <p class="title-text">AltStore <span class="small beta badge"></span></p>
       <p class="detail-text">
       <!--
       Open in the AltStore app
