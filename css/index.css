@@ -154,7 +154,8 @@
 }
 
 #add .button-wrapper>.detail-text {
-  opacity: 0.9;
+  opacity: 1;
+  font-weight: 500;
   width: unset;
 }
 
