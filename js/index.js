@@ -18,7 +18,7 @@ $.getJSON("data/apps.json", function (json) {
   let tod; // Time of day
   const hour = today.getHours();
   if (hour < 5 || hour > 21)
-    tod = "Evening"
+    tod = "Night"
   else if (hour < 12)
     tod = "Morning"
   else if (hour < 17)
