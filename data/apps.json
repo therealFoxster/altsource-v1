@@ -83,11 +83,11 @@
         },
         {
             "id": "youtube",
-            "name": "YouTube Tweaked (Deprecated)",
+            "name": "YouTube Tweaked",
             "beta": true,
             "bundleIdentifier": "com.google.ios.youtube.old",
             "developerName": "Foxster",
-            "subtitle": "Ad-free, background playback, download videos and more",
+            "subtitle": "Deprecated",
             "version": "17.45.1",
             "versionDate": "2022-11-15T09:55:22-08:00",
             "versionDescription": "DontEatMyContent v1.0.5\n\"Fixed engagement panel layout in full screen.\"\n\nYouPIP v1.7.15\n\"Added tr localization.\"\n\nYouTube v17.45.1 (Nov 14, 2022)\n\"Fixed bugs, improved performance, explored the edges of the known universe.\"",

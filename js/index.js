@@ -37,8 +37,15 @@ $.getJSON("data/apps.json", function (json) {
       </div>
       <div class="cell-inner">
         <div class="cell-labels">
-          <p class="cell-text">${app.name.replaceAll("(Deprecated)", `<span class="deprecated badge"></span>`)}</p>
-          <p class="cell-detail-text">${app.subtitle}</p>
+          <p class="cell-text">${app.name}</p>
+          <p class="cell-detail-text" 
+            ${app.subtitle.includes("Deprecated") 
+            ? `style="opacity: 1;"` : ""}
+          >
+            ${app.subtitle.includes("Deprecated") 
+            ? `<span class="deprecated badge"></span>`
+            : app.subtitle
+          }</p>
         </div>
         <a href="app.html?id=${app.id}">
           <button class="uibutton">View</button>

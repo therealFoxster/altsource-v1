@@ -13,8 +13,15 @@ $.getJSON("data/apps.json", function (json) {
   
   $("title").text(`${app.name} – AltSource`);
   $("#app-icon").attr('src', app.iconURL);
-  $("#app-name").html(app.name.replaceAll("(Deprecated)", `<span class="deprecated badge"></span>`));
-  $("#subtitle").text(app.subtitle);
+  $("#app-name").html(app.name);
+  if (app.subtitle.includes("Deprecated")) {
+    $("#subtitle")
+      .text("")
+      .html(`<span class="deprecated badge"></span>`)
+      .css("opacity", 1)
+  } else {
+    $("#subtitle").text(app.subtitle);
+  }
   $("#install").attr('href', `altstore://install?url=${app.downloadURL}`);
   $("#download").attr('href', app.downloadURL);
   
