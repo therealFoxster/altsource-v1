@@ -8,15 +8,15 @@
             "bundleIdentifier": "com.google.ios.youtube",
             "developerName": "MiRO92 & Qn_",
             "subtitle": "The best tweak for the YouTube app just got even better",
-            "version": "17.48.2",
-            "size": 115872093,
-            "versionDate": "2022-12-11T18:28:00-08:00",
-            "versionDescription": "Version changelog: \nhttps://github.com/qnblackcat/uYouPlus/releases/tag/v17.48.2-2.1 ",
-            "downloadURL": "https://github.com/qnblackcat/uYouPlus/releases/download/v17.48.2-2.1/uYouPlus_17.48.2_2.1.ipa",
+            "version": "17.49.6",
+            "size": 116132778,
+            "versionDate": "2022-12-25T05:29:00-08:00",
+            "versionDescription": "Version changelog: \nhttps://github.com/qnblackcat/uYouPlus/releases/tag/v17.49.6-2.1 ",
+            "downloadURL": "https://github.com/qnblackcat/uYouPlus/releases/download/v17.49.6-2.1/uYouPlus_17.49.6_2.1.ipa",
             "information": [
                 {
                     "item": "uYouPlus",
-                    "version": "v17.48.2",
+                    "version": "v17.49.6",
                     "authors": "MiRO92 & Qn_",
                     "url": "https://github.com/qnblackcat/uYouPlus"
                 }
