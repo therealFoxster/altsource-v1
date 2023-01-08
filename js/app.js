@@ -34,7 +34,7 @@ $.getJSON("data/apps.json", function (json) {
     dateStr = `${month} ${date}, ${versionDate.getFullYear()}`;
 
   const today = new Date();
-  
+
   if (versionDate.getFullYear() == today.getFullYear() && versionDate.getMonth() && today.getMonth()) {
     const difference = today.getDate() - versionDate.getDate();
     
@@ -42,9 +42,9 @@ $.getJSON("data/apps.json", function (json) {
       $("#version-date").text("Today");
     else if (difference == 1) 
       $("#version-date").text("Yesterday");
-    else
-      $("#version-date").text(dateStr);
   }
+  else
+    $("#version-date").text(dateStr);
 
   let versionDescriptionFirstLink;
   if (app.versionDescription.split(" \n")[1] != null) {
