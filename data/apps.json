@@ -1,6 +1,10 @@
 {
-    "name": "Foxster's Apps",
+    "name": "Foxster's AltSource",
     "identifier": "me.foxster.AltSource",
+    "subtitle": "AltStore source with tweak-injected apps and possibly more.",
+    "description": "Source code: https://github.com/therealFoxster/altsource",
+    "iconURL": "https://avatars.githubusercontent.com/u/77606385",
+    "tintColor": "D85240",
     "apps": [
         {
             "id": "uyouplus",
@@ -146,6 +150,17 @@
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2832.PNG?raw=true",
                 "https://github.com/therealFoxster/AltSource/blob/master/img/screenshots/YouTube/IMG_2833.PNG?raw=true"
             ]
+        }
+    ],
+    "news": [
+        {
+            "title": "Breaking News!",
+            "identifier": "foxster-news-1",
+            "caption": "The quick brown fox jumped over the lazy dog! 🎉",
+            "tintColor": "D85240",
+            "url": "https://youtu.be/dQw4w9WgXcQ",
+            "date": "2023-04-06",
+            "notify": false
         }
     ]
 }
