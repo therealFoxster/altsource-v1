@@ -34,17 +34,14 @@ $.getJSON("data/apps.json", function (json) {
     dateStr = `${month} ${date}, ${versionDate.getFullYear()}`;
 
   const today = new Date();
+  const msPerDay = 60 * 60 * 24 * 1000;
+  const msDifference = today.valueOf() - versionDate.valueOf();
 
-  if (versionDate.getFullYear() == today.getFullYear() && versionDate.getMonth() && today.getMonth()) {
-    const difference = today.getDate() - versionDate.getDate();
-    
-    if (difference == 0)
-      $("#version-date").text("Today");
-    else if (difference == 1) 
-      $("#version-date").text("Yesterday");
-  }
-  else
-    $("#version-date").text(dateStr);
+  $("#version-date").text(dateStr);
+  if (msDifference <= msPerDay) // Today
+    $("#version-date").text("Today");
+  else if (msDifference <= msPerDay * 2) // Yesterday
+    $("#version-date").text("Yesterday");
 
   let versionDescriptionFirstLink;
   if (app.versionDescription.split(" \n")[1] != null) {
